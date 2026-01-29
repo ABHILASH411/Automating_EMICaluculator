@@ -11,7 +11,8 @@
         <parameter name="browser" value="chrome"/>
         <classes>
             <class name="TestCases.UiCheckTest"/>
-            <class name="TestCases.HomeLoanTest"></class>
+            <class name="TestCases.Test_EmiCalculator"/>
+            <class name="TestCases.HomeLoanTest"/>
         </classes>
     </test>
 

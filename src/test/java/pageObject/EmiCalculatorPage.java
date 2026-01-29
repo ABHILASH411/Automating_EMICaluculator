@@ -82,7 +82,7 @@ public class EmiCalculatorPage extends BaseClass {
 
     public void TotalInterestAmount(int row) throws IOException {
 
-        String path="C:\\Users\\2457327\\Downloads\\EMICalculator\\src\\test\\resources\\TestData\\EmiData.xlsx";
+        String path=System.getProperty("user.dir")+"\\src\\test\\resources\\TestData\\EmiData.xlsx";
 
             String data1 = wait.until(ExpectedConditions.visibilityOf(totalInterestSpan)).getText();
             logger.info("Got Interest Amount");

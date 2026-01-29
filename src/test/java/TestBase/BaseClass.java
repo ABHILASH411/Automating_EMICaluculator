@@ -24,7 +24,7 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class BaseClass {
-    public WebDriver driver;
+    public static WebDriver driver;
     public Logger logger;
 
 
@@ -32,7 +32,7 @@ public class BaseClass {
     @Parameters("browser")
     public void setup(@Optional("chrome") String browser) throws IOException {
 
-        FileInputStream f = new FileInputStream("C:\\Users\\2457327\\Downloads\\EMICalculator\\src\\test\\resources\\config.properties");
+        FileInputStream f = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties");
         Properties p = new Properties();
         p.load(f);
         logger = LogManager.getLogger(this.getClass());

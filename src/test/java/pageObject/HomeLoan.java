@@ -141,7 +141,7 @@ public class HomeLoan extends BaseClass {
 
         List<WebElement> year =  driver.findElements(By.xpath("//tr[@class='row no-margin yearlypaymentdetails']//td"));
         for(WebElement s: year){
-            String filepath = "C:\\Users\\2457327\\Downloads\\EMICalculator\\src\\test\\resources\\TestData\\HomeLoan_TestData.xlsx";
+            String filepath = System.getProperty("user.dir")+"\\src\\test\\resources\\TestData\\HomeLoan_TestData.xlsx";
 
             s.getText();
             ExcelUtils.setCellData(filepath, "HomeLoanTestCase(output)", excelRow+1, column, s.getText());
@@ -158,7 +158,7 @@ public class HomeLoan extends BaseClass {
 
         int excelRow = 0;              // Excel row to write into
         final int COLS_PER_ROW = 7;    // ⬅️  you now want 7 columns per row
-        String filepath = "C:\\Users\\2457327\\Downloads\\EMICalculator\\src\\test\\resources\\TestData\\HomeLoan_TestData.xlsx";
+        String filepath = System.getProperty("user.dir")+"\\src\\test\\resources\\TestData\\HomeLoan_TestData.xlsx";
 
         // Loop over each web row (UNCHANGED)
         for (WebElement r : rows) {
