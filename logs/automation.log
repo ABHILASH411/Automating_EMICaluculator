@@ -1,0 +1,919 @@
+2026-01-28 10:21:57 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:21:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 10:22:42 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:22:42 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 10:25:51 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:25:52 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 10:27:17 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:27:17 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 10:28:59 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:28:59 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 10:29:10 INFO  Test_EmiCalculator:61 - Launched chrome and opened AUT.
+2026-01-28 10:31:12 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:31:13 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 10:31:21 INFO  Test_EmiCalculator:61 - Launched chrome and opened AUT.
+2026-01-28 10:31:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:31:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:31:25 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 10:31:25 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 10:31:25 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 10:31:26 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 10:31:26 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 10:31:26 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 10:31:26 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 10:31:27 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 10:31:27 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 10:31:27 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 10:31:27 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:31:27 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:31:27 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:31:27 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:31:27 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:31:27 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:31:27 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:31:27 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:31:27 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:31:27 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:31:27 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:31:27 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:31:27 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:31:27 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:31:28 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:31:28 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:31:28 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:31:28 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:31:28 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:31:28 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:31:28 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:31:28 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 10:31:28 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 10:31:28 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 10:31:28 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 10:31:29 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 10:31:29 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 10:31:29 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 10:31:29 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 10:31:29 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 10:31:30 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 10:31:30 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 10:31:30 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:31:30 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:31:30 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:31:30 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:31:30 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:31:30 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:31:30 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:31:30 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:31:30 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:31:30 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:31:30 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:31:30 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:31:30 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:31:30 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 10:31:30 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 10:31:30 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 10:31:31 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 10:31:31 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 10:31:32 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 10:31:32 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 10:31:32 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 10:31:33 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 10:31:33 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 10:31:33 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 10:31:33 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:31:33 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:31:33 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:31:33 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:31:33 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:31:33 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:31:33 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:31:33 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:31:33 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:31:33 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:31:33 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:31:33 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:31:33 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:31:33 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 10:31:33 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 10:31:33 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 10:31:33 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 10:31:34 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 10:31:34 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 10:31:34 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 10:31:34 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 10:31:34 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 10:31:34 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 10:31:35 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 10:31:35 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:31:35 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:31:35 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:31:35 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:31:35 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:31:35 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:31:35 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:31:35 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:31:35 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:31:35 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:31:35 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:31:35 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:31:35 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:31:35 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 10:32:02 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:32:03 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 10:32:12 INFO  Test_EmiCalculator:61 - Launched chrome and opened AUT.
+2026-01-28 10:32:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:32:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:32:15 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 10:32:15 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 10:32:16 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 10:32:16 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 10:32:17 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 10:32:17 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 10:32:17 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 10:32:17 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 10:32:18 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 10:32:18 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 10:32:18 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:32:18 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:32:18 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:32:18 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:32:18 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:32:18 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:32:18 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:32:18 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:32:18 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:32:18 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:32:18 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:32:18 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:32:18 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:32:18 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 10:32:19 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 10:32:19 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 10:32:19 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 10:32:19 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 10:32:19 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 10:32:20 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 10:32:20 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 10:32:20 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 10:32:20 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 10:32:20 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 10:32:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:32:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:32:20 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:32:20 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:32:20 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:32:20 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:32:20 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:32:20 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:32:20 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:32:20 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:32:20 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:32:20 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:32:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:32:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:32:21 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:32:21 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:32:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:32:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:32:21 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:32:21 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:32:21 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:32:21 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 10:32:21 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 10:32:21 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 10:32:21 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 10:32:22 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 10:32:22 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 10:32:22 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 10:32:22 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 10:32:23 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 10:32:23 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 10:32:23 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 10:32:23 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:32:23 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:32:23 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:32:23 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:32:23 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:32:23 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:32:23 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:32:23 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:32:23 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:32:23 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:32:23 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:32:23 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:32:23 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:32:23 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 10:32:23 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 10:32:23 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 10:32:24 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 10:32:24 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 10:32:24 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 10:32:25 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 10:32:25 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 10:32:25 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 10:32:25 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 10:32:25 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 10:32:25 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:32:25 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:32:25 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:32:25 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:32:25 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:32:25 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:32:25 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:32:25 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:32:25 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:32:25 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:32:25 DEBUG ZipPackage:676 - Save content types part
+2026-01-28 10:32:25 DEBUG ZipPackage:683 - Save package relationships
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'docProps/app.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'docProps/core.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/sharedStrings.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/styles.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/theme/theme1.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/workbook.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet1.xml'
+2026-01-28 10:32:25 DEBUG ZipPackage:700 - Save part 'xl/worksheets/sheet2.xml'
+2026-01-28 10:32:25 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 10:32:58 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:32:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 10:33:02 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:33:02 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:33:04 WARN  Utils:133 - The test method 'TestCases.HomeLoanTest.fillHomeLoanForm' will be skipped since its data provider 'HomeLoan' returned an empty array or iterator. 
+2026-01-28 10:33:28 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\Downloads\EMICalculator\testng.xml"
+2026-01-28 10:33:28 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\Downloads\EMICalculator\testng.xml
+
+2026-01-28 10:33:33 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:33:33 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:33:35 WARN  Utils:133 - The test method 'TestCases.HomeLoanTest.fillHomeLoanForm' will be skipped since its data provider 'HomeLoan' returned an empty array or iterator. 
+2026-01-28 10:38:26 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:38:29 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:39:22 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:39:25 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:42:45 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:42:46 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 10:42:55 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 10:42:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:42:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:42:58 WARN  Utils:133 - The test method 'TestCases.HomeLoanTest.fillHomeLoanForm' will be skipped since its data provider 'HomeLoan' returned an empty array or iterator. 
+2026-01-28 10:43:39 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:43:40 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 10:43:49 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 10:43:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:43:50 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:43:52 WARN  Utils:133 - The test method 'TestCases.HomeLoanTest.fillHomeLoanForm' will be skipped since its data provider 'HomeLoan' returned an empty array or iterator. 
+2026-01-28 10:50:38 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:50:39 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 10:50:49 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 10:50:49 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:50:49 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:50:51 WARN  Utils:133 - The test method 'TestCases.HomeLoanTest.fillHomeLoanForm' will be skipped since its data provider 'HomeLoan' returned an empty array or iterator. 
+2026-01-28 10:53:51 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+2026-01-28 10:53:51 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 10:54:00 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 10:54:01 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-28 10:54:01 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-28 10:54:04 WARN  Utils:133 - The test method 'TestCases.HomeLoanTest.fillHomeLoanForm' will be skipped since its data provider 'HomeLoan' returned an empty array or iterator. 
+2026-01-28 10:55:39 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 10:55:48 INFO  Test_EmiCalculator:61 - Launched chrome and opened AUT.
+2026-01-28 10:55:51 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 10:55:51 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 10:55:52 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 10:55:52 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 10:55:53 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 10:55:53 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 10:55:53 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 10:55:53 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 10:55:53 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 10:55:54 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 10:55:55 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 10:55:55 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 10:55:55 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 10:55:55 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 10:55:56 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 10:55:56 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 10:55:56 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 10:55:56 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 10:55:57 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 10:55:57 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 10:55:57 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 10:55:58 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 10:55:58 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 10:55:58 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 10:55:58 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 10:55:58 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 10:55:59 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 10:55:59 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 10:55:59 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 10:55:59 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 10:55:59 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 10:56:00 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 10:56:00 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 10:56:00 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 10:56:00 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 10:56:00 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 10:56:01 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 10:56:01 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 10:56:02 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 10:56:02 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 10:56:02 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 10:56:02 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 10:56:02 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 10:56:03 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 10:56:25 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 10:56:34 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 10:56:37 WARN  Utils:133 - The test method 'TestCases.HomeLoanTest.fillHomeLoanForm' will be skipped since its data provider 'HomeLoan' returned an empty array or iterator. 
+2026-01-28 10:58:19 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 10:58:28 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 10:58:31 WARN  Utils:133 - The test method 'TestCases.HomeLoanTest.fillHomeLoanForm' will be skipped since its data provider 'HomeLoan' returned an empty array or iterator. 
+2026-01-28 11:06:18 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:06:26 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:06:27 WARN  Utils:133 - The test method 'TestCases.HomeLoanTest.fillHomeLoanForm' will be skipped since its data provider 'HomeLoan' returned an empty array or iterator. 
+2026-01-28 11:12:04 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:12:11 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:12:12 WARN  Utils:133 - The test method 'TestCases.HomeLoanTest.fillHomeLoanForm' will be skipped since its data provider 'HomeLoan' returned an empty array or iterator. 
+2026-01-28 11:13:09 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:13:16 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:13:17 WARN  Utils:133 - The test method 'TestCases.HomeLoanTest.fillHomeLoanForm' will be skipped since its data provider 'HomeLoan' returned an empty array or iterator. 
+2026-01-28 11:13:46 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:13:53 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:13:54 WARN  Utils:133 - The test method 'TestCases.HomeLoanTest.fillHomeLoanForm' will be skipped since its data provider 'HomeLoan' returned an empty array or iterator. 
+2026-01-28 11:14:05 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:14:12 INFO  Test_EmiCalculator:61 - Launched chrome and opened AUT.
+2026-01-28 11:14:13 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 11:14:13 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 11:14:13 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 11:14:13 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 11:14:14 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 11:14:14 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 11:14:14 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 11:14:14 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 11:14:14 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 11:14:14 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 11:14:15 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 11:14:15 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 11:14:15 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 11:14:15 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 11:14:15 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 11:14:15 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 11:14:15 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 11:14:15 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 11:14:16 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 11:14:16 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 11:14:16 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 11:14:16 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 11:14:16 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 11:14:16 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 11:14:16 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 11:14:16 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 11:14:16 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 11:14:17 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 11:14:17 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 11:14:17 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 11:14:17 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 11:14:17 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 11:14:17 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 11:14:17 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 11:14:17 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 11:14:17 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-01-28 11:14:17 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-01-28 11:14:18 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-01-28 11:14:18 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-01-28 11:14:18 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-01-28 11:14:18 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-01-28 11:14:19 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-01-28 11:14:19 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-01-28 11:14:19 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-01-28 11:21:24 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:21:32 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:21:33 WARN  Utils:133 - The test method 'TestCases.HomeLoanTest.fillHomeLoanForm' will be skipped since its data provider 'HomeLoan' returned an empty array or iterator. 
+2026-01-28 11:25:46 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:25:50 INFO  Test_EmiCalculator:61 - Launched chrome and opened AUT.
+2026-01-28 11:25:51 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-01-28 11:25:51 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-01-28 11:25:57 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:26:04 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:26:05 INFO  HomeLoanTest:24 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 11:26:05 INFO  HomeLoanTest:26 - Clicking Home Loan tab
+2026-01-28 11:27:32 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:27:39 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:27:40 INFO  HomeLoanTest:24 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 11:27:40 INFO  HomeLoanTest:26 - Clicking Home Loan tab
+2026-01-28 11:32:19 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:32:28 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:32:31 INFO  HomeLoanTest:26 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 11:32:31 INFO  HomeLoanTest:28 - Clicking Home Loan tab
+2026-01-28 11:36:35 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:36:43 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:36:46 INFO  HomeLoanTest:22 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 11:36:46 INFO  HomeLoanTest:24 - Clicking Home Loan tab
+2026-01-28 11:38:07 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:38:15 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:38:18 INFO  HomeLoanTest:24 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 11:38:18 INFO  HomeLoanTest:26 - Clicking Home Loan tab
+2026-01-28 11:41:41 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:41:49 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:41:52 INFO  HomeLoanTest:25 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 11:41:52 INFO  HomeLoanTest:27 - Clicking Home Loan tab
+2026-01-28 11:44:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:44:58 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:45:01 INFO  HomeLoanTest:25 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 11:45:01 INFO  HomeLoanTest:27 - Clicking Home Loan tab
+2026-01-28 11:45:06 INFO  HomeLoanTest:30 - Entering Home Price: 5000000
+2026-01-28 11:45:06 INFO  HomeLoanTest:33 - Entering Down Payment Percent: 20
+2026-01-28 11:45:06 INFO  HomeLoanTest:36 - Entering Loan Insurance: 0
+2026-01-28 11:45:07 INFO  HomeLoanTest:39 - Entering Loan Amount: 4000000
+2026-01-28 11:45:07 INFO  HomeLoanTest:42 - Clearing and setting Interest Rate: 9
+2026-01-28 11:45:07 INFO  HomeLoanTest:45 - Entering Loan Tenure: 1
+2026-01-28 11:45:08 INFO  HomeLoanTest:48 - Entering Loan Fees: 0.25
+2026-01-28 11:45:08 INFO  HomeLoanTest:51 - Opening Start Month/Year Picker
+2026-01-28 11:45:08 INFO  HomeLoanTest:54 - Picking Year: 2023 and Month: Jan
+2026-01-28 11:45:09 INFO  HomeLoanTest:57 - Entering One-Time Expenses: 10
+2026-01-28 11:45:10 INFO  HomeLoanTest:60 - Entering Property Taxes: 0.25
+2026-01-28 11:45:10 INFO  HomeLoanTest:63 - Entering Home Insurance: 0.05
+2026-01-28 11:45:11 INFO  HomeLoanTest:66 - Entering Maintenance Expenses: 2500
+2026-01-28 11:45:11 INFO  HomeLoanTest:69 - Waiting for Year element to be clickable
+2026-01-28 11:45:14 INFO  HomeLoanTest:78 - Moving to Year element
+2026-01-28 11:45:14 INFO  HomeLoanTest:81 - Fetching yearly payment details text
+2026-01-28 11:45:28 INFO  HomeLoanTest:84 - **Completed TestCase_001 successfully**
+2026-01-28 11:47:00 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:47:08 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:47:11 INFO  HomeLoanTest:25 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 11:47:11 INFO  HomeLoanTest:27 - Clicking Home Loan tab
+2026-01-28 11:47:16 INFO  HomeLoanTest:30 - Entering Home Price: 5000000
+2026-01-28 11:47:16 INFO  HomeLoanTest:33 - Entering Down Payment Percent: 20
+2026-01-28 11:47:17 INFO  HomeLoanTest:36 - Entering Loan Insurance: 0
+2026-01-28 11:47:17 INFO  HomeLoanTest:39 - Entering Loan Amount: 4000000
+2026-01-28 11:47:17 INFO  HomeLoanTest:42 - Clearing and setting Interest Rate: 9
+2026-01-28 11:47:18 INFO  HomeLoanTest:45 - Entering Loan Tenure: 1
+2026-01-28 11:47:18 INFO  HomeLoanTest:48 - Entering Loan Fees: 0.25
+2026-01-28 11:47:19 INFO  HomeLoanTest:51 - Opening Start Month/Year Picker
+2026-01-28 11:47:19 INFO  HomeLoanTest:54 - Picking Year: 2023 and Month: Jan
+2026-01-28 11:47:20 INFO  HomeLoanTest:57 - Entering One-Time Expenses: 10
+2026-01-28 11:47:20 INFO  HomeLoanTest:60 - Entering Property Taxes: 0.25
+2026-01-28 11:47:20 INFO  HomeLoanTest:63 - Entering Home Insurance: 0.05
+2026-01-28 11:47:20 INFO  HomeLoanTest:66 - Entering Maintenance Expenses: 2500
+2026-01-28 11:47:21 INFO  HomeLoanTest:69 - Waiting for Year element to be clickable
+2026-01-28 11:47:24 INFO  HomeLoanTest:76 - Moving to Year element
+2026-01-28 11:47:24 INFO  HomeLoanTest:79 - Fetching yearly payment details text
+2026-01-28 11:47:37 INFO  HomeLoanTest:82 - **Completed TestCase_001 successfully**
+2026-01-28 11:51:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:51:39 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:51:42 INFO  HomeLoanTest:25 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 11:51:42 INFO  HomeLoanTest:27 - Clicking Home Loan tab
+2026-01-28 11:51:47 INFO  HomeLoanTest:30 - Entering Home Price: 5000000
+2026-01-28 11:51:47 INFO  HomeLoanTest:33 - Entering Down Payment Percent: 20
+2026-01-28 11:51:48 INFO  HomeLoanTest:36 - Entering Loan Insurance: 0
+2026-01-28 11:51:48 INFO  HomeLoanTest:39 - Entering Loan Amount: 4000000
+2026-01-28 11:51:49 INFO  HomeLoanTest:42 - Clearing and setting Interest Rate: 9
+2026-01-28 11:51:49 INFO  HomeLoanTest:45 - Entering Loan Tenure: 1
+2026-01-28 11:51:50 INFO  HomeLoanTest:48 - Entering Loan Fees: 0.25
+2026-01-28 11:51:50 INFO  HomeLoanTest:51 - Opening Start Month/Year Picker
+2026-01-28 11:51:50 INFO  HomeLoanTest:54 - Picking Year: 2023 and Month: Jan
+2026-01-28 11:51:52 INFO  HomeLoanTest:57 - Entering One-Time Expenses: 10
+2026-01-28 11:51:52 INFO  HomeLoanTest:60 - Entering Property Taxes: 0.25
+2026-01-28 11:51:52 INFO  HomeLoanTest:63 - Entering Home Insurance: 0.05
+2026-01-28 11:51:53 INFO  HomeLoanTest:66 - Entering Maintenance Expenses: 2500
+2026-01-28 11:51:53 INFO  HomeLoanTest:69 - Waiting for Year element to be clickable
+2026-01-28 11:51:56 INFO  HomeLoanTest:76 - Moving to Year element
+2026-01-28 11:51:57 INFO  HomeLoanTest:79 - Fetching yearly payment details text
+2026-01-28 11:52:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:53:00 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:53:03 INFO  HomeLoanTest:25 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 11:53:03 INFO  HomeLoanTest:27 - Clicking Home Loan tab
+2026-01-28 11:53:07 INFO  HomeLoanTest:30 - Entering Home Price: 5000000
+2026-01-28 11:53:08 INFO  HomeLoanTest:33 - Entering Down Payment Percent: 20
+2026-01-28 11:53:08 INFO  HomeLoanTest:36 - Entering Loan Insurance: 0
+2026-01-28 11:53:09 INFO  HomeLoanTest:39 - Entering Loan Amount: 4000000
+2026-01-28 11:53:09 INFO  HomeLoanTest:42 - Clearing and setting Interest Rate: 9
+2026-01-28 11:53:10 INFO  HomeLoanTest:45 - Entering Loan Tenure: 1
+2026-01-28 11:53:10 INFO  HomeLoanTest:48 - Entering Loan Fees: 0.25
+2026-01-28 11:53:11 INFO  HomeLoanTest:51 - Opening Start Month/Year Picker
+2026-01-28 11:53:11 INFO  HomeLoanTest:54 - Picking Year: 2023 and Month: Jan
+2026-01-28 11:53:12 INFO  HomeLoanTest:57 - Entering One-Time Expenses: 10
+2026-01-28 11:53:13 INFO  HomeLoanTest:60 - Entering Property Taxes: 0.25
+2026-01-28 11:53:13 INFO  HomeLoanTest:63 - Entering Home Insurance: 0.05
+2026-01-28 11:53:14 INFO  HomeLoanTest:66 - Entering Maintenance Expenses: 2500
+2026-01-28 11:53:14 INFO  HomeLoanTest:69 - Waiting for Year element to be clickable
+2026-01-28 11:53:19 INFO  HomeLoanTest:76 - Moving to Year element
+2026-01-28 11:53:19 INFO  HomeLoanTest:79 - Fetching yearly payment details text
+2026-01-28 11:53:50 INFO  HomeLoanTest:82 - **Completed TestCase_001 successfully**
+2026-01-28 11:56:26 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 11:56:35 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 11:56:39 INFO  HomeLoanTest:25 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 11:56:39 INFO  HomeLoanTest:27 - Clicking Home Loan tab
+2026-01-28 11:56:43 INFO  HomeLoanTest:30 - Entering Home Price: 5000000
+2026-01-28 11:56:44 INFO  HomeLoanTest:33 - Entering Down Payment Percent: 20
+2026-01-28 11:56:44 INFO  HomeLoanTest:36 - Entering Loan Insurance: 0
+2026-01-28 11:56:44 INFO  HomeLoanTest:39 - Entering Loan Amount: 4000000
+2026-01-28 11:56:45 INFO  HomeLoanTest:42 - Clearing and setting Interest Rate: 9
+2026-01-28 11:56:45 INFO  HomeLoanTest:45 - Entering Loan Tenure: 1
+2026-01-28 11:56:46 INFO  HomeLoanTest:48 - Entering Loan Fees: 0.25
+2026-01-28 11:56:46 INFO  HomeLoanTest:51 - Opening Start Month/Year Picker
+2026-01-28 11:56:47 INFO  HomeLoanTest:54 - Picking Year: 2023 and Month: Jan
+2026-01-28 11:56:48 INFO  HomeLoanTest:57 - Entering One-Time Expenses: 10
+2026-01-28 11:56:48 INFO  HomeLoanTest:60 - Entering Property Taxes: 0.25
+2026-01-28 11:56:49 INFO  HomeLoanTest:63 - Entering Home Insurance: 0.05
+2026-01-28 11:56:49 INFO  HomeLoanTest:66 - Entering Maintenance Expenses: 2500
+2026-01-28 11:56:50 INFO  HomeLoanTest:69 - Waiting for Year element to be clickable
+2026-01-28 11:56:55 INFO  HomeLoanTest:76 - Moving to Year element
+2026-01-28 11:56:55 INFO  HomeLoanTest:79 - Fetching yearly payment details text
+2026-01-28 11:57:28 INFO  HomeLoanTest:82 - **Completed TestCase_001 successfully**
+2026-01-28 12:00:52 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 12:01:01 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 12:01:04 INFO  HomeLoanTest:25 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 12:01:04 INFO  HomeLoanTest:27 - Clicking Home Loan tab
+2026-01-28 12:01:09 INFO  HomeLoanTest:30 - Entering Home Price: 5000000
+2026-01-28 12:01:09 INFO  HomeLoanTest:33 - Entering Down Payment Percent: 20
+2026-01-28 12:01:10 INFO  HomeLoanTest:36 - Entering Loan Insurance: 0
+2026-01-28 12:01:10 INFO  HomeLoanTest:39 - Entering Loan Amount: 4000000
+2026-01-28 12:01:11 INFO  HomeLoanTest:42 - Clearing and setting Interest Rate: 9
+2026-01-28 12:01:11 INFO  HomeLoanTest:45 - Entering Loan Tenure: 1
+2026-01-28 12:01:12 INFO  HomeLoanTest:48 - Entering Loan Fees: 0.25
+2026-01-28 12:01:12 INFO  HomeLoanTest:51 - Opening Start Month/Year Picker
+2026-01-28 12:01:13 INFO  HomeLoanTest:54 - Picking Year: 2023 and Month: Jan
+2026-01-28 12:01:14 INFO  HomeLoanTest:57 - Entering One-Time Expenses: 10
+2026-01-28 12:01:14 INFO  HomeLoanTest:60 - Entering Property Taxes: 0.25
+2026-01-28 12:01:15 INFO  HomeLoanTest:63 - Entering Home Insurance: 0.05
+2026-01-28 12:01:15 INFO  HomeLoanTest:66 - Entering Maintenance Expenses: 2500
+2026-01-28 12:01:16 INFO  HomeLoanTest:69 - Waiting for Year element to be clickable
+2026-01-28 12:01:21 INFO  HomeLoanTest:76 - Moving to Year element
+2026-01-28 12:01:21 INFO  HomeLoanTest:79 - Fetching yearly payment details text
+2026-01-28 12:02:03 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 12:02:12 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 12:02:15 INFO  HomeLoanTest:25 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 12:02:15 INFO  HomeLoanTest:27 - Clicking Home Loan tab
+2026-01-28 12:02:20 INFO  HomeLoanTest:30 - Entering Home Price: 5000000
+2026-01-28 12:02:20 INFO  HomeLoanTest:33 - Entering Down Payment Percent: 20
+2026-01-28 12:02:21 INFO  HomeLoanTest:36 - Entering Loan Insurance: 0
+2026-01-28 12:02:21 INFO  HomeLoanTest:39 - Entering Loan Amount: 4000000
+2026-01-28 12:02:22 INFO  HomeLoanTest:42 - Clearing and setting Interest Rate: 9
+2026-01-28 12:02:22 INFO  HomeLoanTest:45 - Entering Loan Tenure: 1
+2026-01-28 12:02:23 INFO  HomeLoanTest:48 - Entering Loan Fees: 0.25
+2026-01-28 12:02:23 INFO  HomeLoanTest:51 - Opening Start Month/Year Picker
+2026-01-28 12:02:24 INFO  HomeLoanTest:54 - Picking Year: 2026 and Month: Jan
+2026-01-28 12:02:24 INFO  HomeLoanTest:57 - Entering One-Time Expenses: 10
+2026-01-28 12:02:24 INFO  HomeLoanTest:60 - Entering Property Taxes: 0.25
+2026-01-28 12:02:25 INFO  HomeLoanTest:63 - Entering Home Insurance: 0.05
+2026-01-28 12:02:25 INFO  HomeLoanTest:66 - Entering Maintenance Expenses: 2500
+2026-01-28 12:02:26 INFO  HomeLoanTest:69 - Waiting for Year element to be clickable
+2026-01-28 12:02:31 INFO  HomeLoanTest:76 - Moving to Year element
+2026-01-28 12:02:31 INFO  HomeLoanTest:79 - Fetching yearly payment details text
+2026-01-28 12:03:02 INFO  HomeLoanTest:82 - **Completed TestCase_001 successfully**
+2026-01-28 12:19:08 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 12:19:15 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 12:19:17 INFO  HomeLoanTest:25 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 12:19:17 INFO  HomeLoanTest:27 - Clicking Home Loan tab
+2026-01-28 12:19:21 INFO  HomeLoanTest:30 - Entering Home Price: 5000000
+2026-01-28 12:19:21 INFO  HomeLoanTest:33 - Entering Down Payment Percent: 20
+2026-01-28 12:19:21 INFO  HomeLoanTest:36 - Entering Loan Insurance: 0
+2026-01-28 12:19:21 INFO  HomeLoanTest:39 - Entering Loan Amount: 4000000
+2026-01-28 12:19:21 INFO  HomeLoanTest:42 - Clearing and setting Interest Rate: 9
+2026-01-28 12:19:22 INFO  HomeLoanTest:45 - Entering Loan Tenure: 1
+2026-01-28 12:19:22 INFO  HomeLoanTest:48 - Entering Loan Fees: 0.25
+2026-01-28 12:19:22 INFO  HomeLoanTest:51 - Opening Start Month/Year Picker
+2026-01-28 12:19:22 INFO  HomeLoanTest:54 - Picking Year: 2026 and Month: Jan
+2026-01-28 12:19:22 INFO  HomeLoanTest:57 - Entering One-Time Expenses: 10
+2026-01-28 12:19:23 INFO  HomeLoanTest:60 - Entering Property Taxes: 0.25
+2026-01-28 12:19:23 INFO  HomeLoanTest:63 - Entering Home Insurance: 0.05
+2026-01-28 12:19:23 INFO  HomeLoanTest:66 - Entering Maintenance Expenses: 2500
+2026-01-28 12:19:23 INFO  HomeLoanTest:69 - Waiting for Year element to be clickable
+2026-01-28 12:19:28 INFO  HomeLoanTest:76 - Moving to Year element
+2026-01-28 12:19:30 INFO  HomeLoanTest:81 - Fetching yearly payment details text
+2026-01-28 12:19:40 INFO  HomeLoanTest:84 - **Completed TestCase_001 successfully**
+2026-01-28 12:21:44 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\Downloads\EMICalculator\testng.xml
+
+2026-01-28 12:21:53 INFO  UiCheckTest:61 - Launched chrome and opened AUT.
+2026-01-28 12:21:59 INFO  UiCheckTest:20 - Case 1: Loan Amount Slider visible? true
+2026-01-28 12:21:59 INFO  UiCheckTest:21 - Case 2: Interest Rate Textbox enabled? true
+2026-01-28 12:21:59 INFO  UiCheckTest:22 - Case 3: EMI Result visible? true (Value: 21,617.95)
+2026-01-28 12:22:00 INFO  UiCheckTest:27 - The Loan Amount is: 1,46,00,000
+2026-01-28 12:22:00 INFO  UiCheckTest:29 - amount is same
+2026-01-28 12:22:00 INFO  UiCheckTest:34 - Success: Values match!
+2026-01-28 12:22:00 INFO  UiCheckTest:35 - Success: Both the input and displayed value are same
+2026-01-28 12:22:00 INFO  UiCheckTest:36 -  EMI Schenme advance is likely clickable.
+2026-01-28 12:22:01 INFO  UiCheckTest:38 - Amount is visible: ₹1,46,10,000
+2026-01-28 12:22:02 INFO  UiCheckTest:39 - amount is same in both slider and input
+2026-01-28 12:22:02 INFO  UiCheckTest:40 - Chart loaded? true
+2026-01-28 12:22:03 INFO  UiCheckTest:44 - Case 1: Loan Interest Slider visible? true
+2026-01-28 12:22:03 INFO  UiCheckTest:45 - Case 2: EMI BOX Textbox enabled? true
+2026-01-28 12:22:03 INFO  UiCheckTest:47 - Success: Values match!
+2026-01-28 12:22:03 INFO  UiCheckTest:48 - Success: Both the input and displayed value are same
+2026-01-28 12:22:04 INFO  UiCheckTest:49 -  EMI Schenme advance is likely clickable.
+2026-01-28 12:22:04 INFO  UiCheckTest:51 - Amount is visible: ₹4,61,43,538
+2026-01-28 12:22:05 INFO  UiCheckTest:52 - Amount is not same in slider and input
+2026-01-28 12:22:05 INFO  UiCheckTest:53 - Chart loaded? true
+2026-01-28 12:22:05 INFO  UiCheckTest:57 - Case 1: Loan Amount Slider visible? true
+2026-01-28 12:22:06 INFO  UiCheckTest:58 - Error: Values are not correc
+2026-01-28 12:22:06 INFO  UiCheckTest:59 - Success: Both the input and displayed value are same
+2026-01-28 12:22:06 INFO  UiCheckTest:60 -  EMI Schenme advance is likely clickable.
+2026-01-28 12:22:06 INFO  UiCheckTest:62 - Amount is visible: ₹1,46,57,001
+2026-01-28 12:22:07 INFO  UiCheckTest:63 - Amount is not same in slider and input
+2026-01-28 12:22:07 INFO  UiCheckTest:64 - Chart loaded? true
+2026-01-28 12:22:07 INFO  ExtentReportManager:75 - Test method passed with: verifyEmiCalculatorFlow
+2026-01-28 12:22:21 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 12:22:24 INFO  HomeLoanTest:25 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 12:22:24 INFO  HomeLoanTest:27 - Clicking Home Loan tab
+2026-01-28 12:22:28 INFO  HomeLoanTest:30 - Entering Home Price: 5000000
+2026-01-28 12:22:29 INFO  HomeLoanTest:33 - Entering Down Payment Percent: 20
+2026-01-28 12:22:29 INFO  HomeLoanTest:36 - Entering Loan Insurance: 0
+2026-01-28 12:22:30 INFO  HomeLoanTest:39 - Entering Loan Amount: 4000000
+2026-01-28 12:22:30 INFO  HomeLoanTest:42 - Clearing and setting Interest Rate: 9
+2026-01-28 12:22:31 INFO  HomeLoanTest:45 - Entering Loan Tenure: 1
+2026-01-28 12:22:31 INFO  HomeLoanTest:48 - Entering Loan Fees: 0.25
+2026-01-28 12:22:31 INFO  HomeLoanTest:51 - Opening Start Month/Year Picker
+2026-01-28 12:22:32 INFO  HomeLoanTest:54 - Picking Year: 2026 and Month: Jan
+2026-01-28 12:22:32 INFO  HomeLoanTest:57 - Entering One-Time Expenses: 10
+2026-01-28 12:22:32 INFO  HomeLoanTest:60 - Entering Property Taxes: 0.25
+2026-01-28 12:22:33 INFO  HomeLoanTest:63 - Entering Home Insurance: 0.05
+2026-01-28 12:22:33 INFO  HomeLoanTest:66 - Entering Maintenance Expenses: 2500
+2026-01-28 12:22:34 INFO  HomeLoanTest:69 - Waiting for Year element to be clickable
+2026-01-28 12:22:39 INFO  HomeLoanTest:76 - Moving to Year element
+2026-01-28 12:22:39 ERROR ExtentReportManager:85 - Test method failed: fillHomeLoanForm
+2026-01-28 12:22:39 ERROR ExtentReportManager:85 - Test method failed: fillHomeLoanForm
+2026-01-28 13:48:06 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\Downloads\EMICalculator\testng.xml
+
+2026-01-28 13:48:14 INFO  UiCheckTest:61 - Launched chrome and opened AUT.
+2026-01-28 13:48:19 INFO  UiCheckTest:20 - Case 1: Loan Amount Slider visible? true
+2026-01-28 13:48:19 INFO  UiCheckTest:21 - Case 2: Interest Rate Textbox enabled? true
+2026-01-28 13:48:19 INFO  UiCheckTest:22 - Case 3: EMI Result visible? true (Value: 21,617.95)
+2026-01-28 13:48:19 INFO  UiCheckTest:27 - The Loan Amount is: 1,46,00,000
+2026-01-28 13:48:19 INFO  UiCheckTest:29 - amount is same
+2026-01-28 13:48:19 INFO  UiCheckTest:34 - Success: Values match!
+2026-01-28 13:48:20 INFO  UiCheckTest:35 - Success: Both the input and displayed value are same
+2026-01-28 13:48:20 INFO  UiCheckTest:36 -  EMI Schenme advance is likely clickable.
+2026-01-28 13:48:20 INFO  UiCheckTest:38 - Amount is visible: ₹1,46,10,000
+2026-01-28 13:48:21 INFO  UiCheckTest:39 - amount is same in both slider and input
+2026-01-28 13:48:21 INFO  UiCheckTest:40 - Chart loaded? true
+2026-01-28 13:48:21 INFO  UiCheckTest:44 - Case 1: Loan Interest Slider visible? true
+2026-01-28 13:48:21 INFO  UiCheckTest:45 - Case 2: EMI BOX Textbox enabled? true
+2026-01-28 13:48:21 INFO  UiCheckTest:47 - Success: Values match!
+2026-01-28 13:48:21 INFO  UiCheckTest:48 - Success: Both the input and displayed value are same
+2026-01-28 13:48:21 INFO  UiCheckTest:49 -  EMI Schenme advance is likely clickable.
+2026-01-28 13:48:21 INFO  UiCheckTest:51 - Amount is visible: ₹4,61,43,538
+2026-01-28 13:48:22 INFO  UiCheckTest:52 - Amount is not same in slider and input
+2026-01-28 13:48:22 INFO  UiCheckTest:53 - Chart loaded? true
+2026-01-28 13:48:22 INFO  UiCheckTest:57 - Case 1: Loan Amount Slider visible? true
+2026-01-28 13:48:22 INFO  UiCheckTest:58 - Error: Values are not correc
+2026-01-28 13:48:22 INFO  UiCheckTest:59 - Success: Both the input and displayed value are same
+2026-01-28 13:48:22 INFO  UiCheckTest:60 -  EMI Schenme advance is likely clickable.
+2026-01-28 13:48:23 INFO  UiCheckTest:62 - Amount is visible: ₹1,46,57,001
+2026-01-28 13:48:23 INFO  UiCheckTest:63 - Amount is not same in slider and input
+2026-01-28 13:48:23 INFO  UiCheckTest:64 - Chart loaded? true
+2026-01-28 13:48:23 INFO  ExtentReportManager:75 - Test method passed with: verifyEmiCalculatorFlow
+2026-01-28 13:48:39 INFO  HomeLoanTest:61 - Launched chrome and opened AUT.
+2026-01-28 13:48:40 INFO  HomeLoanTest:25 - **Started TestCase_001: Home Loan Form Filling**
+2026-01-28 13:48:40 INFO  HomeLoanTest:27 - Clicking Home Loan tab
+2026-01-28 13:48:44 INFO  HomeLoanTest:30 - Entering Home Price: 5000000
+2026-01-28 13:48:44 INFO  HomeLoanTest:33 - Entering Down Payment Percent: 20
+2026-01-28 13:48:44 INFO  HomeLoanTest:36 - Entering Loan Insurance: 0
+2026-01-28 13:48:44 INFO  HomeLoanTest:39 - Entering Loan Amount: 4000000
+2026-01-28 13:48:45 INFO  HomeLoanTest:42 - Clearing and setting Interest Rate: 9
+2026-01-28 13:48:45 INFO  HomeLoanTest:45 - Entering Loan Tenure: 1
+2026-01-28 13:48:45 INFO  HomeLoanTest:48 - Entering Loan Fees: 0.25
+2026-01-28 13:48:45 INFO  HomeLoanTest:51 - Opening Start Month/Year Picker
+2026-01-28 13:48:45 INFO  HomeLoanTest:54 - Picking Year: 2026 and Month: Jan
+2026-01-28 13:48:46 INFO  HomeLoanTest:57 - Entering One-Time Expenses: 10
+2026-01-28 13:48:46 INFO  HomeLoanTest:60 - Entering Property Taxes: 0.25
+2026-01-28 13:48:46 INFO  HomeLoanTest:63 - Entering Home Insurance: 0.05
+2026-01-28 13:48:46 INFO  HomeLoanTest:66 - Entering Maintenance Expenses: 2500
+2026-01-28 13:48:47 INFO  HomeLoanTest:69 - Waiting for Year element to be clickable
+2026-01-28 13:48:52 INFO  HomeLoanTest:76 - Moving to Year element
+2026-01-28 13:48:53 INFO  HomeLoanTest:81 - Fetching yearly payment details text
+2026-01-28 13:49:04 INFO  HomeLoanTest:84 - **Completed TestCase_001 successfully**
+2026-01-28 13:49:04 INFO  ExtentReportManager:75 - Test method passed with: fillHomeLoanForm
