@@ -3,202 +3,285 @@ package pageObject;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
 
+import utilites.WaitUtility;
+
+import java.util.ArrayList;
 import java.util.List;
 
-public class UICheck extends BaseClass {
+public class UICheck extends BasePage {
+    WaitUtility wait;
 
     public UICheck(WebDriver driver) {
         super(driver);
+        this.wait = new WaitUtility(driver);
     }
 
-    // ------------------------------------------------------------
-    // LOCATORS (kept EXACTLY as in your original code, no changes)
-    // ------------------------------------------------------------
+    @FindBy(xpath = "//a[text()='Loan Calculators & Widgets']")
+    WebElement menuList;
 
-    // Top Menu / Navigation
-    private final By menu_LoanCalculatorsAndWidgets = By.xpath("//a[text()='Loan Calculators & Widgets']");
-    private final By link_LoanCalculator = By.xpath("//a[text()='Loan Calculator']");
+    @FindBy(xpath = "//a[text()='Loan Calculator']")
+    WebElement linkLoanCalculator;
 
     // Tabs
-    private final By tab_EmiCalculator = By.xpath("//li[@id='emi-calc']");
-    private final By tab_LoanAmountCalculator = By.xpath("//li[@id='loan-amount-calc']");
-    private final By tab_LoanTenureCalculator = By.xpath("//li[@id='loan-tenure-calc']");
+    @FindBy(css = "li#emi-calc")
+    WebElement tabEmiCalculator;
 
-    // Common/EMI Calculator Elements
-    private final By slider_LoanAmount = By.id("loanamountslider");
-    private final By input_LoanAmount = By.id("loanamount");
-    private final By input_InterestRate = By.id("loaninterest");
-    private final By emiResult_Value = By.xpath("//div[@id='loansummary-emi']/p/span");
-    private final By chart_Background = By.cssSelector("rect.highcharts-background");
+    @FindBy(css = "li#loan-amount-calc")
+    WebElement tabLoanAmountCalculator;
+
+    @FindBy(css = "li#loan-tenure-calc")
+    WebElement tabLoanTenureCalculator;
+
+
+    @FindBy(css = "#loanamount")
+    WebElement inputLoanAmountbox;
+
+    @FindBy(css = "#loanamount")
+    WebElement inputLoanAmount;
+
+
+
+    @FindBy(css = "rect.highcharts-background")
+    WebElement chartBackground;
 
     // Tenure toggles and term value
-    private final By toggle_Years = By.xpath("//input[@id='loanyears']");
-    private final By toggle_Months = By.xpath("//label[@class='btn btn-secondary']/input[@id='loanmonths']");
-    private final By input_LoanTerm = By.xpath("//input[@id='loanterm']");
+    @FindBy(css = "#loanyears")
+    WebElement toggleYears;
+
+    @FindBy(css = "label.btn.btn-secondary input#loanmonths")
+    WebElement toggleMonths;
+
+    @FindBy(css = "#loanterm")
+    WebElement inputLoanTerm;
 
     // EMI Scheme
-    private final By radio_EmiAdvance = By.xpath("//label[@class='btn btn-secondary']/input[@id='emiadvance']");
+    @FindBy(css = "label.btn.btn-secondary input#emiadvance")
+    WebElement radioEmiAdvance;
 
     // Sliders and textboxes collections
-    private final By list_Sliders = By.xpath("//span[@tabindex='0']/parent::div");
-    private final By list_Textboxes = By.xpath("//input[@type='text']");
+    @FindBy(xpath = "//div[@id='loancalculatorinnerform']/div[contains(@class,'toggle-visible')]//div[contains(@class,'ui-slider') and contains(@id,'slider')]")
+    List<WebElement> listSliders;
+
+    @FindBy(xpath = "//div[@id='loancalculatorinnerform']/div[contains(@class,'toggle-visible')]//input[@type='text']//ancestor::div[contains(@class,'toggle-visible')]//label[contains(@class,'control-label')]")
+    List<WebElement> listTextboxes;
 
     // Summary - Total Payment
-    private final By summary_TotalPaymentP = By.xpath("//div[@id='loansummary-totalamount']/h4/following::p");
+    @FindBy(xpath = "//div[@id='loansummary-totalamount']")
+    WebElement summaryTotalPaymentP;
 
-    // Fees controls
-    private final By slider_LoanFeesHandle = By.xpath("//div[@id='loanfeesslider']/span");
-    private final By input_LoanFees = By.id("loanfees");
+    @FindBy(xpath = "//div[@id='loansummary-totalinterest']")
+    WebElement Total_Interest_Payable;
+
+    @FindBy(xpath = "//div[@id='loansummary-apr']")
+    WebElement Loan_APR;
+
+
+
+    @FindBy(css = "#loanfees")
+    WebElement inputLoanFees;
 
     // Loan Amount Calculator (specific checks)
-    private final By slider_LoanInterest = By.id("loaninterestslider");
-    private final By input_LoanEMI = By.id("loanemi");
+    @FindBy(css = "#loaninterestslider")
+    WebElement sliderLoanInterest;
+
+    @FindBy(css = "#loaninterest")
+    WebElement inputInterestRate;
 
 
-    // ------------------------------------------------------------
-    // ACTIONS / FLOWS (Using existing locators and your original logic)
-    // ------------------------------------------------------------
-
-    public void openLoanCalculatorFromMenu() {
-        driver.findElement(menu_LoanCalculatorsAndWidgets).click();
-        driver.findElement(link_LoanCalculator).click();
-    }
-
-    public void openEmiCalculatorTab() {
-        driver.findElement(tab_EmiCalculator).click();
-    }
-
-    public void openLoanAmountCalculatorTab() {
-        driver.findElement(tab_LoanAmountCalculator).click();
-    }
-
-    public void openLoanTenureCalculatorTab() {
-        driver.findElement(tab_LoanTenureCalculator).click();
-    }
-
-    public boolean isLoanAmountSliderVisible() {
-        return driver.findElement(slider_LoanAmount).isDisplayed();
-    }
-
-    public boolean isInterestRateTextboxEnabled() {
-        return driver.findElement(input_InterestRate).isEnabled();
-    }
-
-    public boolean isEmiResultVisible() {
-        return driver.findElement(emiResult_Value).isDisplayed();
-    }
-
-    public String getEmiResultValue() {
-        return driver.findElement(emiResult_Value).getText();
-    }
-
-    public void dragLoanAmountSliderBy(int xOffset, int yOffset) {
-        WebElement slider = driver.findElement(slider_LoanAmount);
-        new Actions(driver).dragAndDropBy(slider, xOffset, yOffset).build().perform();
-    }
-
-    public String getLoanAmountFieldValue() {
-        return driver.findElement(input_LoanAmount).getAttribute("value");
-    }
-
-    public String tenderSliderCheck() {
-        //--checking the year and month changes in the tender slide--//
-        WebElement yearButton = driver.findElement(toggle_Years);
-        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", yearButton);
-        WebElement tendervalue = driver.findElement(input_LoanTerm);
-        String yearvalue = tendervalue.getAttribute("value");
-
-        WebElement monthButton = driver.findElement(toggle_Months);
-        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", monthButton);
-
-        WebElement tendervalueyear = driver.findElement(input_LoanTerm);
-        // Keeping your original line exactly (likely a typo)
-        String monthvalue = tendervalue.getAttribute("value");
-
-        System.out.println(yearvalue + " " + monthvalue);
-
-        String cleanMonth = monthvalue.replaceAll("[^0-9]", "");
-        String cleanYear = yearvalue.replaceAll("[^0-9]", "");
-        int m = Integer.parseInt(cleanMonth);
-        int y = Integer.parseInt(cleanYear);
-
-        if (m == 60 && y == 5)
-            return "Success: Values match!";
-        else
-            return "Error: Values are not correc";
-    }
-
-    public String InterestRateInputValueCheck() {
-        WebElement interestTestBox = driver.findElement(input_InterestRate);
-        interestTestBox.clear();
-        ((JavascriptExecutor) driver).executeScript("arguments[0].value='5';", interestTestBox);
-        String amount = interestTestBox.getAttribute("value");
-        if (amount.equalsIgnoreCase("5")) {
-            return "Success: Both the input and displayed value are same";
-        } else {
-            return "failure : Both are not same";
+    public boolean isMenuDisplayed() {
+        try{
+            // 1. Check if the Main Menu is present and visible
+            wait.waitForVisible(menuList);
+            menuList.click();
+            return true;
+        }catch (Exception e){
+            logger.error("Menu list is not displayed due to -> {}",e.toString());
+            return false;
         }
     }
 
+
+    public void clickLoanCalculator(){
+        // 2. Check if the Sub-link is present and clickable after the menu opens
+        wait.waitForClickable(linkLoanCalculator);
+        linkLoanCalculator.click();
+
+    }
+
+
+
+    public boolean isEmiCalculatorTabDisplayed() {
+        try{
+            wait.waitForVisible(tabEmiCalculator);
+
+            return true;
+        }catch (Exception e){
+            logger.error("EMI Calculator is not visible due to -> {}",e.toString());
+            return false;
+        }
+    }
+
+
+    public boolean isLoanAmountCalculatorDisplayed() {
+        try{
+            wait.waitForVisible(tabLoanAmountCalculator);
+            tabLoanAmountCalculator.click();
+            return true;
+        }catch (Exception e){
+            logger.error("Loan amount Calculator is not visible due to -> {}",e.toString());
+            return false;
+        }
+    }
+
+    public boolean isLoanTenureTabDisplayed() {
+        try{
+            wait.waitForVisible(tabLoanTenureCalculator);
+            tabLoanTenureCalculator.click();
+            return true;
+        }catch (Exception e){
+            logger.error("LOAN TENURE Calculator is not visible due to -> {}",e.toString());
+            return false;
+        }
+    }
+
+    public boolean isEnterLoanAmount(String amount) {
+        // wait for the element to be visible
+
+        wait.waitForVisible(inputLoanAmountbox);
+
+        // Clear the existing value (10,00,000)
+        // Correct JavaScript way to clear an input
+        ((JavascriptExecutor) driver).executeScript("arguments[0].value = '';", inputLoanAmountbox);
+
+        // Enter the new value
+        inputLoanAmount.sendKeys(amount);
+        String enteramount = inputLoanAmount.getAttribute("value");
+        if(enteramount.equalsIgnoreCase(amount)){
+            return true;
+        }else
+            return false;
+    }
+
+    public boolean isFeesCharges(String amount) {
+        // wait for the element to be visible
+
+        wait.waitForVisible(inputLoanFees);
+
+        // Clear the existing value (10,00,000)
+        // Correct JavaScript way to clear an input
+        ((JavascriptExecutor) driver).executeScript("arguments[0].value = '';", inputLoanFees);
+
+        // Enter the new value
+        inputLoanFees.sendKeys(amount);
+        String enteramount = inputLoanFees.getAttribute("value");
+        if(enteramount.equalsIgnoreCase(amount)){
+            return true;
+        }else
+            return false;
+    }
+
+
     public boolean isChartLoaded() {
         try {
-            WebElement chartBg = driver.findElement(chart_Background);
-            return chartBg.isDisplayed();
+            return chartBackground.isDisplayed();
         } catch (NoSuchElementException e) {
             return false;
         }
     }
 
-    public String EMIScheme() {
-        WebElement element = driver.findElement(radio_EmiAdvance);
-        if (element.isDisplayed() && element.isEnabled()) {
-            return " EMI Schenme advance is likely clickable.";
-        } else {
-            return "EMI Schenme adavance  is either hidden or disabled.";
+    public boolean isLoanInterestSliderMoving(int x,int y){
+        try {
+            String startingAmount = inputInterestRate.getAttribute("value");
+
+            new Actions(driver).dragAndDropBy(sliderLoanInterest, x, y).build().perform();
+
+            String updatedAmount = inputInterestRate.getAttribute("value");
+
+            return !startingAmount.equalsIgnoreCase(updatedAmount);
+
+        }catch (Exception e){
+            logger.error("The slider doesn't change the amount -{}",e.toString());
+
+            return false;
         }
     }
 
-    public void noOfSliderandtextbox() {
-        List<WebElement> slides = driver.findElements(list_Sliders);
-        System.out.println("no of slider :" + slides.size());
-        for (WebElement s : slides) {
-            System.out.println("slider name :" + s.getAttribute("id"));
-        }
-        List<WebElement> textBoxs1 = driver.findElements(list_Textboxes);
-        for (WebElement w : textBoxs1) {
-            System.out.println(w.getAttribute("name"));
-        }
+    public boolean isTenureConversionSuccessful() {
+
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", toggleYears);
+
+        int years = Integer.parseInt(inputLoanTerm.getAttribute("value").replaceAll("[^0-9]", ""));
+
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", toggleMonths);
+
+        int months = Integer.parseInt(inputLoanTerm.getAttribute("value").replaceAll("[^0-9]", ""));
+
+        return (months == years * 12);
     }
 
-    public String totalpayment() {
-        WebElement amountLabel = driver.findElement(summary_TotalPaymentP);
-        if (amountLabel.isDisplayed()) {
-            return "Amount is visible: " + amountLabel.getText();
-        } else {
-            return "Amount is in the code but hidden from the user.";
-        }
-    }
-
-    public String feesinputandslideramountcheck() {
-        WebElement feesslider = driver.findElement(slider_LoanFeesHandle);
-        WebElement loanFeesInput = driver.findElement(input_LoanFees);
-        loanFeesInput.click();
-        new Actions(driver).dragAndDropBy(feesslider, 150, 0).build().perform();
-        String amount1 = loanFeesInput.getAttribute("value");
-        System.out.println("The Loan Amount is: " + amount1);
-        if (amount1.equalsIgnoreCase("33,500")) {
-            return "amount is same in both slider and input";
-        } else {
-            return "Amount is not same in slider and input";
+    public boolean isEmiSchemeAdvanceClickable() {
+        try {
+            return radioEmiAdvance.isDisplayed() && radioEmiAdvance.isEnabled();
+        } catch (NoSuchElementException e) {
+            logger.error("EMI Scheme Advance radio button not found in DOM");
+            return false;
         }
     }
 
-    public boolean isLoanInterestSliderVisible_InLoanAmountCalcTab() {
-        return driver.findElement(slider_LoanInterest).isDisplayed();
+    public boolean areAllSummaryElementsVisible() {
+        try {
+            return summaryTotalPaymentP.isDisplayed() &&
+                    Total_Interest_Payable.isDisplayed() &&
+                    Loan_APR.isDisplayed() ;
+        } catch (NoSuchElementException | StaleElementReferenceException e) {
+            return false;
+        }
     }
 
-    public boolean isLoanEMIInputEnabled_InLoanAmountCalcTab() {
-        return driver.findElement(input_LoanEMI).isEnabled();
+
+
+
+
+
+    public boolean validateVisibleSliders() {
+
+        boolean flag=true;
+        for (WebElement s : listSliders) {
+            if (s.isDisplayed()) {
+                flag=true;
+            }else{
+                flag=false;
+            }
+        }
+        if(flag){
+            return true;
+        }else {
+            return false;
+        }
+
     }
+
+
+    public boolean validateVisibleTestBoxs() {
+        List<WebElement> visibleSliders = new ArrayList<>();
+        int c=listTextboxes.size();
+        int count=0;
+
+        for (WebElement s : listTextboxes) {
+            if (s.isDisplayed()) {
+                System.out.println(s.getText());
+                count++;
+            }else{
+                return false;
+            }
+        }
+        if(count==4){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
 }

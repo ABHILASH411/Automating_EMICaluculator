@@ -2,69 +2,67 @@
 package TestCases;
 
 import TestBase.BaseClass;
+import org.testng.annotations.*;
 import pageObject.UICheck;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class UiCheckTest extends BaseClass {
-
-    @Test
-    public void verifyEmiCalculatorFlow() throws Exception {
-        UICheck ui = new UICheck(driver);
-
-        ui.openLoanCalculatorFromMenu();
-
-        // EMI Calculator tab
-        ui.openEmiCalculatorTab();
-
-        logger.info("Case 1: Loan Amount Slider visible? " + ui.isLoanAmountSliderVisible());
-        logger.info("Case 2: Interest Rate Textbox enabled? " + ui.isInterestRateTextboxEnabled());
-        logger.info("Case 3: EMI Result visible? " + ui.isEmiResultVisible()
-                + " (Value: " + ui.getEmiResultValue() + ")");
-
-        ui.dragLoanAmountSliderBy(150, 0);
-        String amount = ui.getLoanAmountFieldValue();
-        logger.info("The Loan Amount is: " + amount);
-        if (amount.equalsIgnoreCase("1,46,00,000")) {
-            logger.info("amount is same");
-        } else {
-            logger.info("Amount is not same");
-        }
-
-        logger.info(ui.tenderSliderCheck());
-        logger.info(ui.InterestRateInputValueCheck());
-        logger.info(ui.EMIScheme());
-        ui.noOfSliderandtextbox();
-        logger.info(ui.totalpayment());
-        logger.info(ui.feesinputandslideramountcheck());
-        logger.info("Chart loaded? " + ui.isChartLoaded());
-
-        // Loan Amount Calculator tab
-        ui.openLoanAmountCalculatorTab();
-        logger.info("Case 1: Loan Interest Slider visible? " + ui.isLoanInterestSliderVisible_InLoanAmountCalcTab());
-        logger.info("Case 2: EMI BOX Textbox enabled? " + ui.isLoanEMIInputEnabled_InLoanAmountCalcTab());
-
-        logger.info(ui.tenderSliderCheck());
-        logger.info(ui.InterestRateInputValueCheck());
-        logger.info(ui.EMIScheme());
-        ui.noOfSliderandtextbox();
-        logger.info(ui.totalpayment());
-        logger.info(ui.feesinputandslideramountcheck());
-        logger.info("Chart loaded? " + ui.isChartLoaded());
-
-        // Loan Tenure Calculator tab
-        ui.openLoanTenureCalculatorTab();
-        logger.info("Case 1: Loan Amount Slider visible? " + ui.isLoanAmountSliderVisible());
-        logger.info(ui.tenderSliderCheck());
-        logger.info(ui.InterestRateInputValueCheck());
-        logger.info(ui.EMIScheme());
-        ui.noOfSliderandtextbox();
-        logger.info(ui.totalpayment());
-        logger.info(ui.feesinputandslideramountcheck());
-        logger.info("Chart loaded? " + ui.isChartLoaded());
-
-        // Soft sanity asserts (optional, keep minimal)
-        Assert.assertTrue(ui.isLoanAmountSliderVisible(), "Loan Amount Slider should be visible on Tenure tab.");
-        Assert.assertTrue(ui.isLoanEMIInputEnabled_InLoanAmountCalcTab(), "EMI input should be enabled on Loan Amount tab.");
+    UICheck ui;
+    @BeforeMethod
+    public void setup(){
+        ui = new UICheck(driver);
     }
+    @Test(priority = 1)
+    public void navigate_to_home_loan_page() {
+
+        Assert.assertTrue(
+                ui.isMenuDisplayed(),
+                "Assertion Failed: Menu list is NOT displayed on the Home Loan Page."
+        );
+        ui.clickLoanCalculator();
+    }
+    @Test(priority = 2,groups = {"regression"})
+    public void check_EMI_calculator(){
+        Assert.assertTrue(ui.isEmiCalculatorTabDisplayed(),
+                "Assertion Failed: EMI calculator Tap is NOT displayed .");
+        Assert.assertTrue(ui.isTenureConversionSuccessful(),"Assertion Failed: Loan  is NOT displayed .");
+        Assert.assertTrue(ui.isEnterLoanAmount("300000"),"Assertion Failed :Loan Input box doesn't take Amount");
+        Assert.assertTrue(ui.areAllSummaryElementsVisible(),"Assertion Failed: Final Amounts are  NOT displayed .");
+        Assert.assertTrue(ui.isEmiSchemeAdvanceClickable(),"Assertion Failed: EMI Scheme is NOT working .");
+        Assert.assertTrue(ui.isChartLoaded(),"Assertion Failed: Chart is NOT displayed .");
+        Assert.assertTrue(ui.isLoanInterestSliderMoving(150,0),"Assertion Failed: Loan Interest slider NOT Working.");
+        Assert.assertTrue(ui.validateVisibleTestBoxs(),"Assertion Failed:  Some Test Boxs Are not visible.");
+        Assert.assertTrue(ui.validateVisibleSliders(),"Assertion Failed:  Some sliders Are not visible.");
+    }
+    @Test(priority = 3,groups = {"sanity"})
+    public void check_Loan_Amount_calculator(){
+        Assert.assertTrue(ui.isLoanAmountCalculatorDisplayed(),
+                "Assertion Failed: Loan Amount calculator Tap is NOT displayed .");
+        Assert.assertTrue(ui.isTenureConversionSuccessful(),"Assertion Failed: Loan  is NOT displayed .");
+        Assert.assertTrue(ui.isFeesCharges("20000"),"Assertion Failed :Fess and charge Input box doesn't take Amount");
+        Assert.assertTrue(ui.areAllSummaryElementsVisible(),"Assertion Failed: Final Amounts are  NOT displayed .");
+        Assert.assertTrue(ui.isEmiSchemeAdvanceClickable(),"Assertion Failed: EMI Scheme is NOT working .");
+        Assert.assertTrue(ui.isChartLoaded(),"Assertion Failed: Chart is NOT displayed .");
+        Assert.assertTrue(ui.isLoanInterestSliderMoving(200,0),"Assertion Failed: Loan Interest slider NOT Working.");
+        Assert.assertTrue(ui.validateVisibleTestBoxs(),"Assertion Failed:  Some Test Boxs Are not visible.");
+        Assert.assertTrue(ui.validateVisibleSliders(),"Assertion Failed:  Some sliders Are not visible.");
+
+    }
+
+    @Test(groups = {"sanity","regression"} ,priority = 4)
+    public void check_Loan_tenure_calculator(){
+        Assert.assertTrue(ui.isLoanTenureTabDisplayed() ,
+                "Assertion Failed: Loan Amount calculator Tap is NOT displayed .");
+        Assert.assertTrue(ui.isFeesCharges("20000"),"Assertion Failed :Fess and charge Input box doesn't take Amount");
+        Assert.assertTrue(ui.areAllSummaryElementsVisible(),"Assertion Failed: Final Amounts are  NOT displayed .");
+        Assert.assertTrue(ui.isEmiSchemeAdvanceClickable(),"Assertion Failed: EMI Scheme is NOT working .");
+        Assert.assertTrue(ui.isChartLoaded(),"Assertion Failed: Chart is NOT displayed .");
+        Assert.assertTrue(ui.isLoanInterestSliderMoving(100,0),"Assertion Failed: Loan Interest slider NOT Working.");
+        Assert.assertTrue(ui.validateVisibleTestBoxs(),"Assertion Failed:  Some Test Boxs Are not visible.");
+        Assert.assertTrue(ui.validateVisibleSliders(),"Assertion Failed:  Some sliders Are not visible.");
+
+    }
+
+
 }

@@ -9,7 +9,7 @@ import utilites.ExcelUtils;
 import java.io.IOException;
 import java.time.Duration;
 
-public class EmiCalculatorPage extends BaseClass {
+public class EmiCalculatorPage extends BasePage {
 
     private final WebDriverWait wait;
 

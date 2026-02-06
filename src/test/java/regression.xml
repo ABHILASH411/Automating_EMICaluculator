@@ -8,7 +8,7 @@
             </run>
         </groups>
         <classes>
-            <class name="TestCases.EmiUiCheckTest"/>
+            <class name="TestCases.UiCheckTest"/>
         </classes>
     </test>
 </suite>

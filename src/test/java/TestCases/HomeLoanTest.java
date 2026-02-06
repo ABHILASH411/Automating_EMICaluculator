@@ -72,9 +72,12 @@ public class HomeLoanTest extends BaseClass {
 //                By.xpath("//td[contains(@class,'paymentyear') and contains(@class,'toggle')]")
 //        ));
 
-        Thread.sleep(5000);
+        Thread.sleep(3000);
+
         logger.info("Moving to Year element");
         page.moveToYearElement();
+
+        page.moveToNextYear();
 
         page.EnterYear();
 

@@ -13,11 +13,11 @@ public class WaitUtility{
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-    public WebElement visible(WebElement ele){
+    public WebElement waitForVisible(WebElement ele){
         return wait.until(ExpectedConditions.visibilityOf(ele));
     }
 
-    public WebElement clickable(WebElement ele){
+    public WebElement waitForClickable(WebElement ele){
         return wait.until(ExpectedConditions.elementToBeClickable(ele));
     }
 

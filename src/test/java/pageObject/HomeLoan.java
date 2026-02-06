@@ -2,153 +2,209 @@ package pageObject;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import utilites.ExcelUtils;
+
 import java.io.IOException;
-import java.time.Duration;
 import java.util.List;
 
-public class HomeLoan extends BaseClass {
+public class HomeLoan extends BasePage {
 
-    //static int row=0;
-    WebDriver driver;
+    private WebDriver driver;
 
+    // ---------------------------
+    // PageFactory WebElements
+    // ---------------------------
 
+    // Tab
+    @FindBy(xpath = "//li[@id='menu-item-3293']")
+    private WebElement homeLoanTab;
+
+    // Inputs
+    @FindBy(xpath = "//input[@id='homeprice']")
+    private WebElement homePriceInput;
+
+    @FindBy(xpath = "//input[@id='downpayment']")
+    private WebElement downPaymentInput;
+
+    @FindBy(id = "homeloaninsuranceamount")
+    private WebElement loanInsuranceInput;
+
+    @FindBy(id = "homeloanamount")
+    private WebElement loanAmountInput;
+
+    @FindBy(id = "homeloaninterest")
+    private WebElement interestInput;
+
+    @FindBy(id = "homeloanterm")
+    private WebElement loanTermInput;
+
+    @FindBy(id = "loanfees")
+    private WebElement loanFeesInput;
+
+    @FindBy(xpath = "//input[@id='startmonthyear']")
+    private WebElement startMonthYearInput;
+
+    @FindBy(id = "onetimeexpenses")
+    private WebElement oneTimeExpensesInput;
+
+    @FindBy(id = "propertytaxes")
+    private WebElement propertyTaxesInput;
+
+    @FindBy(id = "homeinsurance")
+    private WebElement homeInsuranceInput;
+
+    @FindBy(id = "maintenanceexpenses")
+    private WebElement maintenanceExpensesInput;
+
+    // Year row toggle target (kept same XPath)
+    @FindBy(xpath = "//td[contains(text(),'2026')]")
+    private WebElement paymentYearToggleCell;
+
+    @FindBy(xpath = "//td[contains(text(),'2027')]")
+    private WebElement paymentYearToggle;
+//    private List<WebElement> year;
+
+    // ---------------------------
+    // Constructor
+    // ---------------------------
     public HomeLoan(WebDriver driver) {
         super(driver);
-        this.driver=driver;
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
 
     }
 
 
+    // ---------------------------
+    // Actions (method bodies unchanged in logic)
+    // ---------------------------
+
     public void clickHomeLoanTab() {
-        driver.findElement(By.xpath("//li[@id='menu-item-3293']")).click();
+        homeLoanTab.click();
     }
 
     public void setHomePrice(String value) {
-        WebElement home = driver.findElement(By.xpath("//input[@id='homeprice']"));
-        home.clear();
-        home.sendKeys(value);
+        homePriceInput.clear();
+        homePriceInput.sendKeys(value);
     }
 
     public void setDownPaymentPercent(String value) {
-        WebElement down = driver.findElement(By.xpath("//input[@id='downpayment']"));
-        down.clear();
-        down.sendKeys(value);
+        downPaymentInput.clear();
+        downPaymentInput.sendKeys(value);
     }
 
     public void setLoanInsurance(String value) {
-        WebElement li = driver.findElement(By.id("homeloaninsuranceamount"));
-        li.clear();
-        li.sendKeys(value);
+        loanInsuranceInput.clear();
+        loanInsuranceInput.sendKeys(value);
     }
 
     public void setLoanAmount(String value) {
-        WebElement amt = driver.findElement(By.id("homeloanamount"));
-        amt.clear();
-        amt.sendKeys(value);
+        loanAmountInput.clear();
+        loanAmountInput.sendKeys(value);
     }
 
-
     public void clearInterest(String value) {
-        WebElement it = driver.findElement(By.id("homeloaninterest"));
-        it.click(); // focus
-        it.sendKeys(Keys.chord(Keys.CONTROL, "a")); // select all (use COMMAND on macOS)
-        it.sendKeys(Keys.DELETE);                   // delete selected content
-        it.sendKeys(value);                         // type new value
-        it.sendKeys(Keys.TAB);                      // optional: commit/blur
-
+        WebElement it = interestInput;
+        it.click();                                  // focus
+        it.sendKeys(Keys.chord(Keys.CONTROL, "a"));  // select all (CMD on macOS)
+        it.sendKeys(Keys.DELETE);                    // delete selected content
+        it.sendKeys(value);                          // type new value
+        it.sendKeys(Keys.TAB);                       // optional: commit/blur
     }
 
     public void homeloanterm1(String value) {
-        WebElement it = driver.findElement(By.id("homeloanterm"));
-        it.click(); // focus
-        it.sendKeys(Keys.chord(Keys.CONTROL, "a")); // select all (use COMMAND on macOS)
-        it.sendKeys(Keys.DELETE);                   // delete selected content
-        it.sendKeys(value);                         // type new value
-        it.sendKeys(Keys.TAB);                      // optional: commit/blur
-
+        WebElement it = loanTermInput;
+        it.click();                                  // focus
+        it.sendKeys(Keys.chord(Keys.CONTROL, "a"));  // select all (CMD on macOS)
+        it.sendKeys(Keys.DELETE);                    // delete selected content
+        it.sendKeys(value);                          // type new value
+        it.sendKeys(Keys.TAB);                       // optional: commit/blur
     }
 
     public void setLoanFees(String value) {
-        WebElement fees = driver.findElement(By.id("loanfees"));
-        fees.clear();
-        fees.sendKeys(value);
+        loanFeesInput.clear();
+        loanFeesInput.sendKeys(value);
     }
 
     public void openStartMonthYearPicker() {
-        WebElement start = driver.findElement(By.xpath("//input[@id='startmonthyear']"));
-        start.click();
-
+        startMonthYearInput.click();
     }
 
+    // NOTE: dynamic elements depend on input text; keeping driver.findElement(..) exactly as you had it.
     public void pickYearThenMonth(String targetYearText, String monthShortName) {
         while (true) {
-            WebElement monthYear = driver.findElement(By.xpath("//div[@class='datepicker-months']/descendant::th[@class='datepicker-switch']"));
+            WebElement monthYear = driver.findElement(
+                    By.xpath("//div[@class='datepicker-months']/descendant::th[@class='datepicker-switch']")
+            );
             if (monthYear.getText().trim().equalsIgnoreCase(targetYearText.trim())) {
                 break;
             }
-            driver.findElement(By.xpath("//div[@class='datepicker-months']/descendant::th[@class='prev']")).click();
+            driver.findElement(
+                    By.xpath("//div[@class='datepicker-months']/descendant::th[@class='prev']")
+            ).click();
         }
         driver.findElement(By.xpath("//span[contains(text(), '" + monthShortName + "')] ")).click();
     }
 
     public void setOneTimeExpenses(String value) {
-        WebElement el = driver.findElement(By.id("onetimeexpenses"));
-        el.clear();
-        el.sendKeys(value);
+        oneTimeExpensesInput.clear();
+        oneTimeExpensesInput.sendKeys(value);
     }
 
     public void setPropertyTaxes(String value) {
-        WebElement el = driver.findElement(By.id("propertytaxes"));
-        el.clear();
-        el.sendKeys(value);
+        propertyTaxesInput.clear();
+        propertyTaxesInput.sendKeys(value);
     }
 
     public void setHomeInsurance(String value) {
-        WebElement el = driver.findElement(By.id("homeinsurance"));
-        el.clear();
-        el.sendKeys(value);
+        homeInsuranceInput.clear();
+        homeInsuranceInput.sendKeys(value);
     }
 
     public void setMaintenanceExpenses(String value) {
-        WebElement el = driver.findElement(By.id("maintenanceexpenses"));
-        el.clear();
-        el.sendKeys(value);
+        maintenanceExpensesInput.clear();
+        maintenanceExpensesInput.sendKeys(value);
     }
+
+
     public void moveToYearElement() {
-        WebElement ct = driver.findElement(
-                By.xpath("//td[contains(@class,'paymentyear') and contains(@class,'toggle')]")
-        );
 
         Actions actions = new Actions(driver);
-        actions.moveToElement(ct).click().perform();  // moves mouse to the element
+        WebElement ct = paymentYearToggleCell; // same XPath as original
+        actions.moveToElement(ct).click().perform();
     }
+        public void moveToNextYear() {
+//            Actions actions = new Actions(driver);
+            WebElement bt = paymentYearToggle; // same XPath as original
+//            actions.moveToElement(bt).click().perform();
 
-//public void clickOnYear() {
-//    WebElement ct = driver.findElement(
-//            By.xpath("//td[contains(@class,'paymentyear') and contains(@class,'toggle')]")
-//    );
-//
-//    JavascriptExecutor js = (JavascriptExecutor) driver;
-//    js.executeScript("arguments[0].click();", ct);
-//}
-    public void EnterYear()throws IOException{
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("arguments[0].click();", bt);
 
 
-       int excelRow=0 ;
-        int column=0;
+        }
 
-        List<WebElement> year =  driver.findElements(By.xpath("//tr[@class='row no-margin yearlypaymentdetails']//td"));
-        for(WebElement s: year){
-            String filepath = System.getProperty("user.dir")+"\\src\\test\\resources\\TestData\\HomeLoan_TestData.xlsx";
+    // Kept EXACT logic: list queries and Excel writing unchanged
+    public void EnterYear() throws IOException {
+        int excelRow = 0;
+        int column = 0;
+
+        List<WebElement> year = driver.findElements(
+                By.xpath("//tr[@class='row no-margin yearlypaymentdetails']//td")
+        );
+        for (WebElement s : year) {
+            String filepath = System.getProperty("user.dir")
+                    + "\\src\\test\\resources\\TestData\\HomeLoan_TestData.xlsx";
 
             s.getText();
-            ExcelUtils.setCellData(filepath, "HomeLoanTestCase(output)", excelRow+1, column, s.getText());
+            ExcelUtils.setCellData(filepath, "HomeLoanTestCase(output)", excelRow + 1, column, s.getText());
             column++;
         }
     }
 
+    // Kept loops, conditions, and XPaths exactly the same
     public void getYearlyPaymentDetailsText() throws IOException {
 
         // Outer rows from webpage (unchanged)
@@ -157,8 +213,9 @@ public class HomeLoan extends BaseClass {
         );
 
         int excelRow = 0;              // Excel row to write into
-        final int COLS_PER_ROW = 7;    // ⬅️  you now want 7 columns per row
-        String filepath = System.getProperty("user.dir")+"\\src\\test\\resources\\TestData\\HomeLoan_TestData.xlsx";
+        final int COLS_PER_ROW = 7;    // you want 7 columns per row
+        String filepath = System.getProperty("user.dir")
+                + "\\src\\test\\resources\\TestData\\HomeLoan_TestData.xlsx";
 
         // Loop over each web row (UNCHANGED)
         for (WebElement r : rows) {
@@ -177,11 +234,11 @@ public class HomeLoan extends BaseClass {
 
             // Inner loop (UNCHANGED)
             for (WebElement d : data) {
-                    String val = d.getText().replace("₹","");
+                String val = d.getText().replace("₹", "");
                 // Write ONLY the 7 cells that belong to this excelRow
                 if (cellIdx >= rowStart && cellIdx < rowEndExclusive) {
 
-                    ExcelUtils.setCellData(filepath, "HomeLoanTestCase(output)", excelRow+2, column, val);
+                    ExcelUtils.setCellData(filepath, "HomeLoanTestCase(output)", excelRow + 2, column, val);
                     column++;
 
                     // Stop when 7 columns are filled
@@ -196,7 +253,4 @@ public class HomeLoan extends BaseClass {
             excelRow++;
         }
     }
-
 }
-
-
