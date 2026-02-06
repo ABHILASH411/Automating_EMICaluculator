@@ -455,3 +455,59 @@ java.io.IOException: Stream Closed
 2026-02-06 11:26:32 ERROR ExtentReportManager:85 - Test method failed: fillHomeLoanForm
 2026-02-06 11:26:33 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
 2026-02-06 11:26:33 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
+2026-02-06 12:21:43 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\IdeaProjects\Automating_EMICaluculator\testng.xml
+
+2026-02-06 12:21:51 ERROR ExtentReportManager:85 - Test method failed: fillHomeLoanForm
+2026-02-06 12:21:52 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-02-06 12:21:52 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-02-06 12:21:52 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-02-06 12:21:53 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-02-06 12:21:53 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-02-06 12:21:53 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-02-06 12:21:53 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-02-06 12:21:53 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-02-06 12:21:53 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-02-06 12:21:53 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-02-06 12:21:54 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-02-06 12:21:54 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
+2026-02-06 12:21:54 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-02-06 12:21:54 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-02-06 12:21:54 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-02-06 12:21:54 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-02-06 12:21:54 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-02-06 12:21:54 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-02-06 12:21:54 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-02-06 12:21:55 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-02-06 12:21:55 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-02-06 12:21:55 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-02-06 12:21:55 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-02-06 12:21:55 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
+2026-02-06 12:21:55 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-02-06 12:21:55 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-02-06 12:21:55 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-02-06 12:21:55 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-02-06 12:21:55 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-02-06 12:21:56 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-02-06 12:21:56 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-02-06 12:21:56 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-02-06 12:21:56 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-02-06 12:21:56 INFO  ExtentReportManager:75 - Test method passed with: navigate_to_home_loan_page
+2026-02-06 12:21:56 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-02-06 12:21:56 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-02-06 12:21:56 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
+2026-02-06 12:21:56 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-02-06 12:21:56 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-02-06 12:21:56 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-02-06 12:21:56 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-02-06 12:21:57 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-02-06 12:21:57 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-02-06 12:21:57 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-02-06 12:21:57 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-02-06 12:21:57 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-02-06 12:21:57 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-02-06 12:21:57 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-02-06 12:21:57 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
+2026-02-06 12:21:58 INFO  ExtentReportManager:75 - Test method passed with: check_EMI_calculator
+2026-02-06 12:21:59 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_Amount_calculator
+2026-02-06 12:22:00 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_tenure_calculator

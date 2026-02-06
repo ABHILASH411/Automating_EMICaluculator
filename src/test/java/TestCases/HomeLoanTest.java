@@ -12,7 +12,6 @@ public class HomeLoanTest extends BaseClass {
 
 
     HomeLoan page ;
-
     @Test(description = "Fill Home Loan page with fixed inputs",
             dataProvider ="HomeLoan", dataProviderClass = DataproviderUtils.class)
     public void fillHomeLoanForm(String s ,String margin ,String Loan_Insurance,
