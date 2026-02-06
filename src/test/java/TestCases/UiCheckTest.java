@@ -9,20 +9,17 @@ import org.testng.annotations.Test;
 
 public class UiCheckTest extends BaseClass {
     UICheck ui;
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setup(){
         ui = new UICheck(driver);
-    }
-    @Test(priority = 1)
-    public void navigate_to_home_loan_page() {
-
         Assert.assertTrue(
                 ui.isMenuDisplayed(),
                 "Assertion Failed: Menu list is NOT displayed on the Home Loan Page."
         );
         ui.clickLoanCalculator();
     }
-    @Test(priority = 2,groups = {"regression"})
+
+    @Test(priority = 1,groups = {"regression"})
     public void check_EMI_calculator(){
         Assert.assertTrue(ui.isEmiCalculatorTabDisplayed(),
                 "Assertion Failed: EMI calculator Tap is NOT displayed .");
@@ -35,7 +32,7 @@ public class UiCheckTest extends BaseClass {
         Assert.assertTrue(ui.validateVisibleTestBoxs(),"Assertion Failed:  Some Test Boxs Are not visible.");
         Assert.assertTrue(ui.validateVisibleSliders(),"Assertion Failed:  Some sliders Are not visible.");
     }
-    @Test(priority = 3,groups = {"sanity"})
+    @Test(priority = 2,groups = {"sanity"})
     public void check_Loan_Amount_calculator(){
         Assert.assertTrue(ui.isLoanAmountCalculatorDisplayed(),
                 "Assertion Failed: Loan Amount calculator Tap is NOT displayed .");
@@ -50,7 +47,7 @@ public class UiCheckTest extends BaseClass {
 
     }
 
-    @Test(groups = {"sanity","regression"} ,priority = 4)
+    @Test(groups = {"sanity","regression"} ,priority = 3)
     public void check_Loan_tenure_calculator(){
         Assert.assertTrue(ui.isLoanTenureTabDisplayed() ,
                 "Assertion Failed: Loan Amount calculator Tap is NOT displayed .");

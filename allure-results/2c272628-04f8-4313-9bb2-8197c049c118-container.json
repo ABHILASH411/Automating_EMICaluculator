@@ -1,1 +1,0 @@
-{"uuid":"2c272628-04f8-4313-9bb2-8197c049c118","name":"TestCases.UiCheckTest.setup","children":["62f74cd9-abab-427a-8a7c-1826b9673170"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1770355226687,"stop":1770355226689}],"afters":[],"start":1770355226687,"stop":1770355226689}

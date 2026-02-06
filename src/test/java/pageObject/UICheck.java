@@ -5,6 +5,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
+import org.openqa.selenium.support.PageFactory;
 import utilites.WaitUtility;
 
 import java.util.ArrayList;
@@ -16,6 +17,7 @@ public class UICheck extends BasePage {
     public UICheck(WebDriver driver) {
         super(driver);
         this.wait = new WaitUtility(driver);
+        PageFactory.initElements(driver, this);
     }
 
     @FindBy(xpath = "//a[text()='Loan Calculators & Widgets']")

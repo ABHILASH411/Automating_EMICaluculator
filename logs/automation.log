@@ -324,190 +324,132 @@ java.io.IOException: Stream Closed
 2026-02-06 10:55:49 INFO  ExtentReportManager:75 - Test method passed with: check_EMI_calculator
 2026-02-06 10:55:56 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_Amount_calculator
 2026-02-06 10:56:01 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_tenure_calculator
-2026-02-06 11:18:42 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2457327\IdeaProjects\Automating_EMICaluculator\testng.xml
+2026-02-06 11:42:56 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457405\IdeaProjects\Automating_EMICaluculator\src\test\java\smoke.xml
 
-2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: navigate_to_home_loan_page
-2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: check_EMI_calculator
-2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_Amount_calculator
-2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_tenure_calculator
-2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: fillHomeLoanForm
-2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:19:01 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2457327\IdeaProjects\Automating_EMICaluculator\testng.xml
+2026-02-06 11:46:01 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457405\IdeaProjects\Automating_EMICaluculator\src\test\java\smoke.xml
 
-2026-02-06 11:19:02 INFO  ExtentReportManager:104 - Test method skipped: navigate_to_home_loan_page
-2026-02-06 11:19:02 INFO  ExtentReportManager:104 - Test method skipped: check_EMI_calculator
-2026-02-06 11:19:02 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_Amount_calculator
-2026-02-06 11:19:02 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_tenure_calculator
-2026-02-06 11:19:03 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:19:03 INFO  ExtentReportManager:104 - Test method skipped: fillHomeLoanForm
-2026-02-06 11:19:03 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:19:03 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:19:03 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: navigate_to_home_loan_page
-2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: check_EMI_calculator
-2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_Amount_calculator
-2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_tenure_calculator
-2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: fillHomeLoanForm
-2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:19:49 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2457327\IdeaProjects\Automating_EMICaluculator\testng.xml
+2026-02-06 11:49:44 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457405\IdeaProjects\Automating_EMICaluculator\src\test\java\smoke.xml
 
-2026-02-06 11:19:50 INFO  ExtentReportManager:104 - Test method skipped: navigate_to_home_loan_page
-2026-02-06 11:19:50 INFO  ExtentReportManager:104 - Test method skipped: check_EMI_calculator
-2026-02-06 11:19:50 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_Amount_calculator
-2026-02-06 11:19:50 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_tenure_calculator
-2026-02-06 11:19:53 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:19:53 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:19:53 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:19:53 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:21:53 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2457327\IdeaProjects\Automating_EMICaluculator\testng.xml
+2026-02-06 11:49:44 ERROR UICheck:133 - Loan amount Calculator is not visible due to -> java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-02-06 11:49:44 ERROR UICheck:144 - LOAN TENURE Calculator is not visible due to -> java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-02-06 11:50:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457405\IdeaProjects\Automating_EMICaluculator\src\test\java\smoke.xml
 
-2026-02-06 11:21:53 INFO  ExtentReportManager:104 - Test method skipped: navigate_to_home_loan_page
-2026-02-06 11:21:53 INFO  ExtentReportManager:104 - Test method skipped: check_EMI_calculator
-2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_Amount_calculator
-2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_tenure_calculator
-2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: fillHomeLoanForm
-2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
-2026-02-06 11:25:50 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2457327\IdeaProjects\Automating_EMICaluculator\testng.xml
+2026-02-06 11:50:30 ERROR UICheck:133 - Loan amount Calculator is not visible due to -> java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-02-06 11:50:31 ERROR UICheck:144 - LOAN TENURE Calculator is not visible due to -> java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-02-06 11:52:49 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457405\IdeaProjects\Automating_EMICaluculator\src\test\java\smoke.xml
 
-2026-02-06 11:26:10 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
-2026-02-06 11:26:10 INFO  HomeLoanTest:25 - **Started TestCase_001: Home Loan Form Filling**
-2026-02-06 11:26:10 INFO  HomeLoanTest:27 - Clicking Home Loan tab
-2026-02-06 11:26:10 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
-2026-02-06 11:26:11 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
-2026-02-06 11:26:12 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
-2026-02-06 11:26:13 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
-2026-02-06 11:26:14 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
-2026-02-06 11:26:15 INFO  ExtentReportManager:75 - Test method passed with: navigate_to_home_loan_page
-2026-02-06 11:26:15 INFO  HomeLoanTest:30 - Entering Home Price: 5000000
-2026-02-06 11:26:15 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
-2026-02-06 11:26:15 INFO  EmiCalculatorPage:88 - Got Interest Amount
-2026-02-06 11:26:15 INFO  EmiCalculatorPage:90 - Got EMI Amount
-2026-02-06 11:26:15 INFO  HomeLoanTest:33 - Entering Down Payment Percent: 20
-2026-02-06 11:26:15 INFO  EmiCalculatorPage:92 - Got Total Amount
-2026-02-06 11:26:16 INFO  HomeLoanTest:36 - Entering Loan Insurance: 0
-2026-02-06 11:26:16 INFO  HomeLoanTest:39 - Entering Loan Amount: 4000000
-2026-02-06 11:26:17 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
-2026-02-06 11:26:17 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
-2026-02-06 11:26:17 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
-2026-02-06 11:26:17 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
-2026-02-06 11:26:17 INFO  HomeLoanTest:42 - Clearing and setting Interest Rate: 9
-2026-02-06 11:26:17 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
-2026-02-06 11:26:19 INFO  HomeLoanTest:45 - Entering Loan Tenure: 1
-2026-02-06 11:26:20 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
-2026-02-06 11:26:20 INFO  ExtentReportManager:75 - Test method passed with: check_EMI_calculator
-2026-02-06 11:26:21 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
-2026-02-06 11:26:21 INFO  HomeLoanTest:48 - Entering Loan Fees: 0.25
-2026-02-06 11:26:21 INFO  HomeLoanTest:51 - Opening Start Month/Year Picker
-2026-02-06 11:26:21 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
-2026-02-06 11:26:22 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
-2026-02-06 11:26:22 INFO  HomeLoanTest:54 - Picking Year: 2026 and Month: Jan
-2026-02-06 11:26:22 INFO  EmiCalculatorPage:88 - Got Interest Amount
-2026-02-06 11:26:22 INFO  EmiCalculatorPage:90 - Got EMI Amount
-2026-02-06 11:26:22 INFO  HomeLoanTest:57 - Entering One-Time Expenses: 10
-2026-02-06 11:26:22 INFO  EmiCalculatorPage:92 - Got Total Amount
-2026-02-06 11:26:23 INFO  HomeLoanTest:60 - Entering Property Taxes: 0.25
-2026-02-06 11:26:23 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
-2026-02-06 11:26:23 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
-2026-02-06 11:26:23 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
-2026-02-06 11:26:23 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
-2026-02-06 11:26:23 INFO  HomeLoanTest:63 - Entering Home Insurance: 0.05
-2026-02-06 11:26:23 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
-2026-02-06 11:26:24 INFO  HomeLoanTest:66 - Entering Maintenance Expenses: 2500
-2026-02-06 11:26:24 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
-2026-02-06 11:26:24 INFO  HomeLoanTest:69 - Waiting for Year element to be clickable
-2026-02-06 11:26:25 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
-2026-02-06 11:26:25 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_Amount_calculator
-2026-02-06 11:26:25 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
-2026-02-06 11:26:26 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
-2026-02-06 11:26:26 INFO  EmiCalculatorPage:88 - Got Interest Amount
-2026-02-06 11:26:26 INFO  EmiCalculatorPage:90 - Got EMI Amount
-2026-02-06 11:26:26 INFO  EmiCalculatorPage:92 - Got Total Amount
-2026-02-06 11:26:27 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
-2026-02-06 11:26:27 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
-2026-02-06 11:26:27 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
-2026-02-06 11:26:27 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
-2026-02-06 11:26:27 INFO  HomeLoanTest:77 - Moving to Year element
-2026-02-06 11:26:28 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
-2026-02-06 11:26:29 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
-2026-02-06 11:26:30 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_tenure_calculator
-2026-02-06 11:26:30 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
-2026-02-06 11:26:31 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
-2026-02-06 11:26:32 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
-2026-02-06 11:26:32 INFO  EmiCalculatorPage:88 - Got Interest Amount
-2026-02-06 11:26:32 INFO  EmiCalculatorPage:90 - Got EMI Amount
-2026-02-06 11:26:32 INFO  HomeLoanTest:84 - Fetching yearly payment details text
-2026-02-06 11:26:32 INFO  EmiCalculatorPage:92 - Got Total Amount
-2026-02-06 11:26:32 ERROR ExtentReportManager:85 - Test method failed: fillHomeLoanForm
-2026-02-06 11:26:32 ERROR ExtentReportManager:85 - Test method failed: fillHomeLoanForm
-2026-02-06 11:26:33 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
-2026-02-06 11:26:33 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
-2026-02-06 12:21:43 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2457327\IdeaProjects\Automating_EMICaluculator\testng.xml
+2026-02-06 11:52:49 ERROR UICheck:135 - Loan amount Calculator is not visible due to -> java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-02-06 11:52:49 ERROR UICheck:146 - LOAN TENURE Calculator is not visible due to -> java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-02-06 11:57:33 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457405\IdeaProjects\Automating_EMICaluculator\src\test\java\smoke.xml
 
-2026-02-06 12:21:51 ERROR ExtentReportManager:85 - Test method failed: fillHomeLoanForm
-2026-02-06 12:21:52 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
-2026-02-06 12:21:52 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
-2026-02-06 12:21:52 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
-2026-02-06 12:21:53 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
-2026-02-06 12:21:53 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
-2026-02-06 12:21:53 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
-2026-02-06 12:21:53 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
-2026-02-06 12:21:53 INFO  EmiCalculatorPage:88 - Got Interest Amount
-2026-02-06 12:21:53 INFO  EmiCalculatorPage:90 - Got EMI Amount
-2026-02-06 12:21:53 INFO  EmiCalculatorPage:92 - Got Total Amount
-2026-02-06 12:21:54 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
-2026-02-06 12:21:54 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
-2026-02-06 12:21:54 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
-2026-02-06 12:21:54 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
-2026-02-06 12:21:54 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
-2026-02-06 12:21:54 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
-2026-02-06 12:21:54 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
-2026-02-06 12:21:54 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
-2026-02-06 12:21:54 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
-2026-02-06 12:21:55 INFO  EmiCalculatorPage:88 - Got Interest Amount
-2026-02-06 12:21:55 INFO  EmiCalculatorPage:90 - Got EMI Amount
-2026-02-06 12:21:55 INFO  EmiCalculatorPage:92 - Got Total Amount
-2026-02-06 12:21:55 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
-2026-02-06 12:21:55 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
-2026-02-06 12:21:55 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
-2026-02-06 12:21:55 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
-2026-02-06 12:21:55 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
-2026-02-06 12:21:55 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
-2026-02-06 12:21:55 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
-2026-02-06 12:21:56 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
-2026-02-06 12:21:56 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
-2026-02-06 12:21:56 INFO  EmiCalculatorPage:88 - Got Interest Amount
-2026-02-06 12:21:56 INFO  EmiCalculatorPage:90 - Got EMI Amount
-2026-02-06 12:21:56 INFO  ExtentReportManager:75 - Test method passed with: navigate_to_home_loan_page
-2026-02-06 12:21:56 INFO  EmiCalculatorPage:92 - Got Total Amount
-2026-02-06 12:21:56 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
-2026-02-06 12:21:56 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
-2026-02-06 12:21:56 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
-2026-02-06 12:21:56 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
-2026-02-06 12:21:56 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
-2026-02-06 12:21:56 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
-2026-02-06 12:21:57 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
-2026-02-06 12:21:57 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
-2026-02-06 12:21:57 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
-2026-02-06 12:21:57 INFO  EmiCalculatorPage:88 - Got Interest Amount
-2026-02-06 12:21:57 INFO  EmiCalculatorPage:90 - Got EMI Amount
-2026-02-06 12:21:57 INFO  EmiCalculatorPage:92 - Got Total Amount
-2026-02-06 12:21:57 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
-2026-02-06 12:21:57 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
-2026-02-06 12:21:58 INFO  ExtentReportManager:75 - Test method passed with: check_EMI_calculator
-2026-02-06 12:21:59 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_Amount_calculator
-2026-02-06 12:22:00 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_tenure_calculator
+2026-02-06 11:58:40 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457405\IdeaProjects\Automating_EMICaluculator\src\test\java\smoke.xml
+
+2026-02-06 11:59:39 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457405\IdeaProjects\Automating_EMICaluculator\src\test\java\smoke.xml
+
+2026-02-06 12:01:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457405\IdeaProjects\Automating_EMICaluculator\src\test\java\smoke.xml
+
+2026-02-06 12:07:00 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457405\IdeaProjects\Automating_EMICaluculator\testng.xml
+
+2026-02-06 12:07:32 ERROR UICheck:135 - Loan amount Calculator is not visible due to -> org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: li#loan-amount-calc' (tried for 10 second(s) with 500 milliseconds interval)
+2026-02-06 12:07:32 ERROR ExtentReportManager:85 - Test method failed: check_Loan_Amount_calculator
+2026-02-06 12:07:32 ERROR ExtentReportManager:85 - Test method failed: check_Loan_Amount_calculator
+2026-02-06 12:10:37 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457405\IdeaProjects\Automating_EMICaluculator\testng.xml
+
+2026-02-06 12:10:50 INFO  ExtentReportManager:75 - Test method passed with: check_EMI_calculator
+2026-02-06 12:10:56 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_Amount_calculator
+2026-02-06 12:11:01 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_tenure_calculator
+2026-02-06 12:11:13 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-02-06 12:11:13 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-02-06 12:11:13 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-02-06 12:11:14 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-02-06 12:11:14 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-02-06 12:11:14 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-02-06 12:11:14 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-02-06 12:11:14 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-02-06 12:11:14 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-02-06 12:11:14 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-02-06 12:11:14 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-02-06 12:11:14 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
+2026-02-06 12:11:14 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-02-06 12:11:14 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-02-06 12:11:15 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-02-06 12:11:15 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-02-06 12:11:16 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-02-06 12:11:16 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-02-06 12:11:16 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-02-06 12:11:16 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-02-06 12:11:16 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-02-06 12:11:16 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-02-06 12:11:16 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-02-06 12:11:16 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
+2026-02-06 12:11:16 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-02-06 12:11:16 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-02-06 12:11:16 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-02-06 12:11:17 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-02-06 12:11:17 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-02-06 12:11:18 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-02-06 12:11:18 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-02-06 12:11:18 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-02-06 12:11:18 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-02-06 12:11:18 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-02-06 12:11:18 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-02-06 12:11:18 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
+2026-02-06 12:11:18 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-02-06 12:11:18 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-02-06 12:11:18 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-02-06 12:11:19 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-02-06 12:11:19 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-02-06 12:11:19 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-02-06 12:11:19 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-02-06 12:11:19 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-02-06 12:11:19 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-02-06 12:11:19 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-02-06 12:11:19 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-02-06 12:11:19 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
+2026-02-06 12:11:31 INFO  HomeLoanTest:25 - **Started TestCase_001: Home Loan Form Filling**
+2026-02-06 12:11:31 INFO  HomeLoanTest:27 - Clicking Home Loan tab
+2026-02-06 12:11:35 INFO  HomeLoanTest:30 - Entering Home Price: 5000000
+2026-02-06 12:11:35 INFO  HomeLoanTest:33 - Entering Down Payment Percent: 20
+2026-02-06 12:11:35 INFO  HomeLoanTest:36 - Entering Loan Insurance: 0
+2026-02-06 12:11:35 INFO  HomeLoanTest:39 - Entering Loan Amount: 4000000
+2026-02-06 12:11:36 INFO  HomeLoanTest:42 - Clearing and setting Interest Rate: 9
+2026-02-06 12:11:36 INFO  HomeLoanTest:45 - Entering Loan Tenure: 1
+2026-02-06 12:11:36 INFO  HomeLoanTest:48 - Entering Loan Fees: 0.25
+2026-02-06 12:11:36 INFO  HomeLoanTest:51 - Opening Start Month/Year Picker
+2026-02-06 12:11:37 INFO  HomeLoanTest:54 - Picking Year: 2026 and Month: Jan
+2026-02-06 12:11:37 INFO  HomeLoanTest:57 - Entering One-Time Expenses: 10
+2026-02-06 12:11:37 INFO  HomeLoanTest:60 - Entering Property Taxes: 0.25
+2026-02-06 12:11:37 INFO  HomeLoanTest:63 - Entering Home Insurance: 0.05
+2026-02-06 12:11:37 INFO  HomeLoanTest:66 - Entering Maintenance Expenses: 2500
+2026-02-06 12:11:37 INFO  HomeLoanTest:69 - Waiting for Year element to be clickable
+2026-02-06 12:11:40 INFO  HomeLoanTest:77 - Moving to Year element
+2026-02-06 12:11:42 INFO  HomeLoanTest:84 - Fetching yearly payment details text
+2026-02-06 12:11:50 INFO  HomeLoanTest:87 - **Completed TestCase_001 successfully**
+2026-02-06 12:11:50 INFO  ExtentReportManager:75 - Test method passed with: fillHomeLoanForm
+2026-02-06 12:14:04 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457405\IdeaProjects\Automating_EMICaluculator\testng.xml
+
+2026-02-06 12:14:31 ERROR UICheck:135 - Loan amount Calculator is not visible due to -> org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: li#loan-amount-calc' (tried for 10 second(s) with 500 milliseconds interval)
+2026-02-06 12:14:31 ERROR ExtentReportManager:85 - Test method failed: check_Loan_Amount_calculator
+2026-02-06 12:14:32 ERROR ExtentReportManager:85 - Test method failed: check_Loan_Amount_calculator
+2026-02-06 12:19:16 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457405\IdeaProjects\Automating_EMICaluculator\testng.xml
+
+2026-02-06 12:19:44 ERROR UICheck:135 - Loan amount Calculator is not visible due to -> org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: li#loan-amount-calc' (tried for 10 second(s) with 500 milliseconds interval)
+2026-02-06 12:19:44 ERROR ExtentReportManager:85 - Test method failed: check_Loan_Amount_calculator
+2026-02-06 12:22:12 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457405\IdeaProjects\Automating_EMICaluculator\testng.xml
+
+2026-02-06 12:22:25 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_Amount_calculator
+2026-02-06 16:52:51 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_Amount_calculator

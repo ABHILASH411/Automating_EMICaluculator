@@ -13,6 +13,7 @@ import org.apache.logging.log4j.Logger;
 import java.io.IOException;
 import java.util.Date;
 import java.util.Properties;
+import java.util.logging.FileHandler;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
@@ -34,7 +35,7 @@ public class BaseClass {
     public Logger logger;
     public Properties p;
 
-    @BeforeClass()
+    @BeforeClass(alwaysRun = true)
     @Parameters({"browser", "os"})
     public void setup(@Optional("Chrome") String br, @Optional("Windows") String os) throws IOException {
         // Load properties
@@ -83,6 +84,7 @@ public class BaseClass {
                 case "chrome":
                     ChromeOptions options = new ChromeOptions();
                     options.addArguments("--disable-notifications");
+                    System.out.println("driverSETUP");
                     driver = new ChromeDriver(options);
                     break;
                 case "edge":
@@ -114,7 +116,8 @@ public class BaseClass {
         String targetFilePath=System.getProperty("user.dir")+"\\Screenshots\\" + tname + "_" + timeStamp + ".png";
         File targetFile=new File(targetFilePath);
 
-        sourceFile.renameTo(targetFile);
+        //targetFile.renameTo(sourceFile);
+        FileUtils.copyFile(sourceFile,targetFile);
 
         return targetFilePath;
 
