@@ -380,3 +380,78 @@ java.io.IOException: Stream Closed
 2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
 2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
 2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:25:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\IdeaProjects\Automating_EMICaluculator\testng.xml
+
+2026-02-06 11:26:10 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-02-06 11:26:10 INFO  HomeLoanTest:25 - **Started TestCase_001: Home Loan Form Filling**
+2026-02-06 11:26:10 INFO  HomeLoanTest:27 - Clicking Home Loan tab
+2026-02-06 11:26:10 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-02-06 11:26:11 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-02-06 11:26:12 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-02-06 11:26:13 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-02-06 11:26:14 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-02-06 11:26:15 INFO  ExtentReportManager:75 - Test method passed with: navigate_to_home_loan_page
+2026-02-06 11:26:15 INFO  HomeLoanTest:30 - Entering Home Price: 5000000
+2026-02-06 11:26:15 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-02-06 11:26:15 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-02-06 11:26:15 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-02-06 11:26:15 INFO  HomeLoanTest:33 - Entering Down Payment Percent: 20
+2026-02-06 11:26:15 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-02-06 11:26:16 INFO  HomeLoanTest:36 - Entering Loan Insurance: 0
+2026-02-06 11:26:16 INFO  HomeLoanTest:39 - Entering Loan Amount: 4000000
+2026-02-06 11:26:17 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-02-06 11:26:17 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
+2026-02-06 11:26:17 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-02-06 11:26:17 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-02-06 11:26:17 INFO  HomeLoanTest:42 - Clearing and setting Interest Rate: 9
+2026-02-06 11:26:17 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-02-06 11:26:19 INFO  HomeLoanTest:45 - Entering Loan Tenure: 1
+2026-02-06 11:26:20 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-02-06 11:26:20 INFO  ExtentReportManager:75 - Test method passed with: check_EMI_calculator
+2026-02-06 11:26:21 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-02-06 11:26:21 INFO  HomeLoanTest:48 - Entering Loan Fees: 0.25
+2026-02-06 11:26:21 INFO  HomeLoanTest:51 - Opening Start Month/Year Picker
+2026-02-06 11:26:21 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-02-06 11:26:22 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-02-06 11:26:22 INFO  HomeLoanTest:54 - Picking Year: 2026 and Month: Jan
+2026-02-06 11:26:22 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-02-06 11:26:22 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-02-06 11:26:22 INFO  HomeLoanTest:57 - Entering One-Time Expenses: 10
+2026-02-06 11:26:22 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-02-06 11:26:23 INFO  HomeLoanTest:60 - Entering Property Taxes: 0.25
+2026-02-06 11:26:23 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-02-06 11:26:23 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
+2026-02-06 11:26:23 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-02-06 11:26:23 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-02-06 11:26:23 INFO  HomeLoanTest:63 - Entering Home Insurance: 0.05
+2026-02-06 11:26:23 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-02-06 11:26:24 INFO  HomeLoanTest:66 - Entering Maintenance Expenses: 2500
+2026-02-06 11:26:24 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-02-06 11:26:24 INFO  HomeLoanTest:69 - Waiting for Year element to be clickable
+2026-02-06 11:26:25 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-02-06 11:26:25 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_Amount_calculator
+2026-02-06 11:26:25 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-02-06 11:26:26 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-02-06 11:26:26 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-02-06 11:26:26 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-02-06 11:26:26 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-02-06 11:26:27 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-02-06 11:26:27 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
+2026-02-06 11:26:27 INFO  Test_EmiCalculator:19 - -----Stated CarEmiTestCase-----
+2026-02-06 11:26:27 INFO  Test_EmiCalculator:23 - -----opencarLoanTab-----
+2026-02-06 11:26:27 INFO  HomeLoanTest:77 - Moving to Year element
+2026-02-06 11:26:28 INFO  Test_EmiCalculator:26 - -----Starting data Entering-----
+2026-02-06 11:26:29 INFO  Test_EmiCalculator:29 - -----Entered Loan Amount-----
+2026-02-06 11:26:30 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_tenure_calculator
+2026-02-06 11:26:30 INFO  Test_EmiCalculator:32 - -----Entered Interest Rate-----
+2026-02-06 11:26:31 INFO  Test_EmiCalculator:35 - -----Entered Tenure-----
+2026-02-06 11:26:32 INFO  Test_EmiCalculator:38 - -----TotalAmount-----
+2026-02-06 11:26:32 INFO  EmiCalculatorPage:88 - Got Interest Amount
+2026-02-06 11:26:32 INFO  EmiCalculatorPage:90 - Got EMI Amount
+2026-02-06 11:26:32 INFO  HomeLoanTest:84 - Fetching yearly payment details text
+2026-02-06 11:26:32 INFO  EmiCalculatorPage:92 - Got Total Amount
+2026-02-06 11:26:32 ERROR ExtentReportManager:85 - Test method failed: fillHomeLoanForm
+2026-02-06 11:26:32 ERROR ExtentReportManager:85 - Test method failed: fillHomeLoanForm
+2026-02-06 11:26:33 INFO  EmiCalculatorPage:97 - Data added to ExcelSheet
+2026-02-06 11:26:33 INFO  ExtentReportManager:75 - Test method passed with: verifyCarLoanMonthlyBreakup
