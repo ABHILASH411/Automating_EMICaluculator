@@ -324,3 +324,59 @@ java.io.IOException: Stream Closed
 2026-02-06 10:55:49 INFO  ExtentReportManager:75 - Test method passed with: check_EMI_calculator
 2026-02-06 10:55:56 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_Amount_calculator
 2026-02-06 10:56:01 INFO  ExtentReportManager:75 - Test method passed with: check_Loan_tenure_calculator
+2026-02-06 11:18:42 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\IdeaProjects\Automating_EMICaluculator\testng.xml
+
+2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: navigate_to_home_loan_page
+2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: check_EMI_calculator
+2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_Amount_calculator
+2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_tenure_calculator
+2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: fillHomeLoanForm
+2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:18:43 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:19:01 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\IdeaProjects\Automating_EMICaluculator\testng.xml
+
+2026-02-06 11:19:02 INFO  ExtentReportManager:104 - Test method skipped: navigate_to_home_loan_page
+2026-02-06 11:19:02 INFO  ExtentReportManager:104 - Test method skipped: check_EMI_calculator
+2026-02-06 11:19:02 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_Amount_calculator
+2026-02-06 11:19:02 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_tenure_calculator
+2026-02-06 11:19:03 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:19:03 INFO  ExtentReportManager:104 - Test method skipped: fillHomeLoanForm
+2026-02-06 11:19:03 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:19:03 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:19:03 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: navigate_to_home_loan_page
+2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: check_EMI_calculator
+2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_Amount_calculator
+2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_tenure_calculator
+2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: fillHomeLoanForm
+2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:19:04 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:19:49 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\IdeaProjects\Automating_EMICaluculator\testng.xml
+
+2026-02-06 11:19:50 INFO  ExtentReportManager:104 - Test method skipped: navigate_to_home_loan_page
+2026-02-06 11:19:50 INFO  ExtentReportManager:104 - Test method skipped: check_EMI_calculator
+2026-02-06 11:19:50 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_Amount_calculator
+2026-02-06 11:19:50 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_tenure_calculator
+2026-02-06 11:19:53 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:19:53 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:19:53 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:19:53 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:21:53 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457327\IdeaProjects\Automating_EMICaluculator\testng.xml
+
+2026-02-06 11:21:53 INFO  ExtentReportManager:104 - Test method skipped: navigate_to_home_loan_page
+2026-02-06 11:21:53 INFO  ExtentReportManager:104 - Test method skipped: check_EMI_calculator
+2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_Amount_calculator
+2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: check_Loan_tenure_calculator
+2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: fillHomeLoanForm
+2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
+2026-02-06 11:21:54 INFO  ExtentReportManager:104 - Test method skipped: verifyCarLoanMonthlyBreakup
