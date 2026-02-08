@@ -90,9 +90,9 @@ import TestBase.BaseClass;
 
             test.log(Status.FAIL,result.getName()+" got failed");
             test.log(Status.INFO, result.getThrowable().getMessage());
-
+            BaseClass base=(BaseClass) result.getInstance();
             try {
-                String imgPath = new BaseClass().captureScreen(result.getName());
+                String imgPath = base.captureScreen(result.getName());
                 test.addScreenCaptureFromPath(imgPath);
 
             } catch (IOException e1) {
