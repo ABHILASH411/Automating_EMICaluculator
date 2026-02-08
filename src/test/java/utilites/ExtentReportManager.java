@@ -49,6 +49,7 @@ import TestBase.BaseClass;
             sparkReporter.config().setDocumentTitle("EMI Calculator Automation Report"); // Title of report
             sparkReporter.config().setReportName("EMI Calculator Testing"); // name of the report
             sparkReporter.config().setTheme(Theme.DARK);
+            sparkReporter.config().setOfflineMode(true);
 
             extent = new ExtentReports();
             extent.attachReporter(sparkReporter);
