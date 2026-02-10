@@ -11,8 +11,8 @@
         <parameter name="os" value="windows"/>
 <!--        <groups>-->
 <!--            <run>-->
-<!--                <exclude name="regression"></exclude>-->
-<!--                <include name="sanity"></include>-->
+<!--                <include name="regression"/>-->
+<!--                <include name="sanity"/>-->
 <!--            </run>-->
 <!--        </groups>-->
         <classes>
@@ -21,16 +21,6 @@
             <class name="TestCases.HomeLoanTest"/>
         </classes>
     </test>
-
-<!--    <test name="edgeTest">-->
-<!--        <parameter name="browser" value="edge"/>-->
-<!--&lt;!&ndash;        <parameter name="os" value="windows"></parameter>&ndash;&gt;-->
-<!--        <classes>-->
-<!--            <class name="TestCases.UiCheckTest"/>-->
-<!--            <class name="TestCases.Test_EmiCalculator"/>-->
-<!--            <class name="TestCases.HomeLoanTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
 
 </suite>
 

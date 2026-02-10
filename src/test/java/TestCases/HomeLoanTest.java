@@ -67,10 +67,6 @@ public class HomeLoanTest extends BaseClass {
         page.setMaintenanceExpenses(Expenses);
 
         logger.info("Waiting for Year element to be clickable");
-//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//        wait.until(ExpectedConditions.elementToBeClickable(
-//                By.xpath("//td[contains(@class,'paymentyear') and contains(@class,'toggle')]")
-//        ));
 
         Thread.sleep(3000);
 

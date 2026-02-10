@@ -21,12 +21,4 @@ public class WaitUtility{
         return wait.until(ExpectedConditions.elementToBeClickable(ele));
     }
 
-    public boolean attributeContains(WebElement ele){
-        try{
-            Thread.sleep(2000);
-        }catch (Exception e){
-            System.out.println(e);
-        }
-        return wait.until(ExpectedConditions.attributeContains(ele, "class", "tab active"));
-    }
 }

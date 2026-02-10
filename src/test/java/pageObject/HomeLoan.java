@@ -64,7 +64,7 @@ public class HomeLoan extends BasePage {
 
     @FindBy(xpath = "//td[contains(text(),'2027')]")
     private WebElement paymentYearToggle;
-//    private List<WebElement> year;
+
 
     // ---------------------------
     // Constructor

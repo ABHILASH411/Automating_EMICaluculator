@@ -1,14 +1,12 @@
 package TestCases;
 
 import TestBase.BaseClass;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObject.EmiCalculatorPage;
 import utilites.DataproviderUtils;
 
 import java.io.IOException;
 
-import static java.lang.Integer.parseInt;
 
 public class Test_EmiCalculator extends BaseClass {
 
